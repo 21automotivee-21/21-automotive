@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local sqlite data (created at runtime)
+data/*.sqlite
+data/*.sqlite-journal
+data/*.sqlite-wal
+legacy-static/server/*.sqlite
+
+# editor / agent local config
+.claude/
+
+# the example env file IS meant to be committed
+!.env.example
+!legacy-static/server/.env.example

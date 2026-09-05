@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>(function(){var l=localStorage.getItem("site-lang")||"en";document.documentElement.lang=l;document.documentElement.dir=l==="ar"?"rtl":"ltr";})();</script>
+<title>Export Cars — 21 Automotive</title>
+<meta name="description" content="Browse 21 Automotive's export inventory: vehicles sourced from Germany, priced net of VAT for export, separate from our local lot." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="navbar">
+  <div class="container navbar__inner">
+    <a href="index.html" class="brand">
+      <span class="brand__mark">21</span>
+      <span class="brand__name">Automotive<span data-i18n="nav.tagline">Est. 2026 &middot; Dealership</span></span>
+    </a>
+
+    <nav aria-label="Primary">
+      <ul class="nav-links" data-open="false">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="inventory.html" data-i18n="nav.inventory">Inventory</a></li>
+        <li><a href="export.html" aria-current="page" data-i18n="nav.exportCars">Export Cars</a></li>
+        <li><a href="book-test-drive.html" data-i18n="nav.bookTestDrive">Book a Test Drive</a></li>
+        <li><a href="financing.html" data-i18n="nav.financing">Financing</a></li>
+        <li class="nav-dropdown">
+          <button type="button" class="nav-dropdown__toggle" aria-expanded="false" aria-haspopup="true">
+            <span data-i18n="nav.more">More</span>
+            <svg class="icon" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <ul class="nav-dropdown__menu">
+            <li><a href="warranty.html" data-i18n="nav.warranty">Warranty</a></li>
+            <li><a href="service-packages.html" data-i18n="nav.servicePackages">Service Packages</a></li>
+            <li><a href="accessories.html" data-i18n="nav.accessories">Accessories</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="navbar__actions">
+      <div class="pref-switcher">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+          <button type="button" class="lang-btn" data-lang-btn="ar">AR</button>
+        </div>
+        <select class="currency-select" data-currency-select aria-label="Currency">
+          <option value="USD">USD</option>
+          <option value="EGP">EGP</option>
+          <option value="SAR">SAR</option>
+          <option value="AED">AED</option>
+        </select>
+      </div>
+      <a class="navbar__phone" href="tel:+201500585100">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"></path></svg>
+        <strong>+20 150 058 5100</strong>
+      </a>
+      <a href="contact.html" class="btn btn-primary btn-sm" data-i18n="nav.getInTouch">Get In Touch</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow" data-i18n="export.eyebrow">Export Inventory</span>
+      <h1 data-i18n="export.title">Cars available for export from Germany</h1>
+      <p class="lead" data-i18n="export.lead">German market vehicles sourced for export. Prices shown are the net export cost — before shipping, duties, and registration in your destination country.</p>
+    </div>
+  </section>
+
+  <section class="section section--compact-top">
+    <div class="container">
+
+      <div class="toolbar">
+        <div class="search-field">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="search" id="export-search" placeholder="Search by make or model…" data-i18n-placeholder="export.searchPlaceholder" aria-label="Search export inventory by make or model" />
+        </div>
+
+        <div class="toolbar__selects">
+          <div class="select-field">
+            <label for="export-brand-filter" data-i18n="export.brand">Brand</label>
+            <select id="export-brand-filter" aria-label="Filter by brand">
+              <option value="all" data-i18n="export.allBrands">All Brands</option>
+            </select>
+          </div>
+          <div class="select-field">
+            <label for="export-price-filter" data-i18n="export.price">Price</label>
+            <select id="export-price-filter" aria-label="Filter by price range">
+              <option value="all" data-i18n="export.anyPrice">Any Price</option>
+              <option value="0-10000" data-i18n="export.under10k">Under €10,000</option>
+              <option value="10000-15000" data-i18n="export.10to15k">€10,000 – €15,000</option>
+              <option value="15000-20000" data-i18n="export.15to20k">€15,000 – €20,000</option>
+              <option value="20000-999999" data-i18n="export.over20k">€20,000+</option>
+            </select>
+          </div>
+          <div class="select-field">
+            <label for="export-sort-select" data-i18n="export.sortBy">Sort by</label>
+            <select id="export-sort-select" aria-label="Sort export vehicles">
+              <option value="featured" data-i18n="export.sortFeatured">Featured</option>
+              <option value="price-asc" data-i18n="export.sortPriceAsc">Price: Low to High</option>
+              <option value="price-desc" data-i18n="export.sortPriceDesc">Price: High to Low</option>
+              <option value="mileage-asc" data-i18n="export.sortMileageAsc">Mileage: Low to High</option>
+              <option value="year-desc" data-i18n="export.sortYearDesc">Year: Newest First</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-bar" role="group" aria-label="Filter export vehicles by fuel type">
+        <button type="button" class="filter-chip export-filter-chip" data-filter="all" aria-pressed="true" data-i18n="export.allFuel">All Fuel Types</button>
+        <button type="button" class="filter-chip export-filter-chip" data-filter="Petrol" aria-pressed="false" data-i18n="export.fuelPetrol">Petrol</button>
+        <button type="button" class="filter-chip export-filter-chip" data-filter="Diesel" aria-pressed="false" data-i18n="export.fuelDiesel">Diesel</button>
+      </div>
+
+      <p class="results-count export-results-count">Showing 20 of 20 export vehicles</p>
+
+      <div class="grid grid--4" data-export-grid></div>
+
+      <div class="empty-state export-empty-state" data-visible="false">
+        <h3 data-i18n="export.emptyTitle">No vehicles match your search</h3>
+        <p><span data-i18n="export.emptyText">Try adjusting your filters, or</span> <a href="contact.html" style="color: var(--color-accent);" data-i18n="export.contactUs">contact us</a> <span data-i18n="export.arriving">— we source new export inventory regularly.</span></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow" data-i18n="export.howEyebrow">Export Pricing</span>
+          <h2 data-i18n="export.howTitle">How export pricing works</h2>
+        </div>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="feature-card">
+          <div class="feature-card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2v20M2 12h20"></path><circle cx="12" cy="12" r="9"></circle></svg></div>
+          <h3 data-i18n="export.howVatTitle">VAT-deductible</h3>
+          <p data-i18n="export.howVatText">Marked cars show Germany's 19% VAT separately on the invoice. For a documented export sale, that VAT is zero-rated — so the net price above is what you actually pay.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24"><path d="M3 3v18h18"></path><path d="M7 15l4-6 3 3 5-8"></path></svg></div>
+          <h3 data-i18n="export.howMarginTitle">Margin-taxed (§25a)</h3>
+          <p data-i18n="export.howMarginText">Most used cars are sold under Germany's margin scheme: VAT is calculated only on the dealer's profit margin, not the full price, so there's nothing separate to deduct. The listed price is the export price.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path><path d="M14 2v6h6"></path></svg></div>
+          <h3 data-i18n="export.howTitleTitle">Export title</h3>
+          <p data-i18n="export.howTitleText">Always confirm the vehicle registration certificate (Fahrzeugbrief) is included before sourcing — a car flagged "No Export Title" generally can't be re-registered abroad.</p>
+        </div>
+      </div>
+
+      <p class="field-hint" style="margin-top: var(--space-8);" data-i18n="export.disclaimer">Prices are indicative export quotes based on current market listings, not final invoices. Shipping, import duties, registration, and any destination-country taxes are additional.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="brand">
+          <span class="brand__mark">21</span>
+          <span class="brand__name">Automotive<span data-i18n="nav.tagline">Est. 2026 &middot; Dealership</span></span>
+        </a>
+        <p data-i18n="footer.blurb">Hand-picked new and certified pre-owned vehicles with transparent pricing and honest service.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="21 Automotive on Instagram">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+          </a>
+          <a href="#" aria-label="21 Automotive on Facebook">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"></path></svg>
+          </a>
+          <a href="#" aria-label="21 Automotive on X">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18"><line x1="4" y1="4" x2="20" y2="20"></line><line x1="20" y1="4" x2="4" y2="20"></line></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+        <ul class="footer__links">
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="inventory.html" data-i18n="nav.inventory">Inventory</a></li>
+          <li><a href="export.html" data-i18n="nav.exportCars">Export Cars</a></li>
+          <li><a href="book-test-drive.html" data-i18n="nav.bookTestDrive">Book a Test Drive</a></li>
+          <li><a href="financing.html" data-i18n="nav.financing">Financing</a></li>
+          <li><a href="warranty.html" data-i18n="nav.warranty">Warranty</a></li>
+          <li><a href="service-packages.html" data-i18n="nav.servicePackages">Service Packages</a></li>
+          <li><a href="accessories.html" data-i18n="nav.accessories">Accessories</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.hours">Hours</h4>
+        <ul class="footer__links">
+          <li data-i18n="footer.everyDay">Every day</li>
+          <li data-i18n="footer.hoursTime">12pm – 12am</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <ul class="footer__links">
+          <li><a href="tel:+201500585100">+20 150 058 5100</a></li>
+          <li><a href="mailto:21automotivee@gmail.com">21automotivee@gmail.com</a></li>
+          <li>1234 Auto Plaza Drive<br/>Los Angeles, CA 90001</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span data-i18n="footer.copyright">&copy; 2026 21 Automotive. All rights reserved.</span>
+      <span data-i18n="footer.placeholderNote">Placeholder address — update before launch.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/export-vehicles.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

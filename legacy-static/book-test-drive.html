@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>(function(){var l=localStorage.getItem("site-lang")||"en";document.documentElement.lang=l;document.documentElement.dir=l==="ar"?"rtl":"ltr";})();</script>
+<title>Book a Test Drive — 21 Automotive</title>
+<meta name="description" content="Book a test drive at 21 Automotive. Choose a car, pick a date and time, and optionally reserve it with a refundable deposit." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="navbar">
+  <div class="container navbar__inner">
+    <a href="index.html" class="brand">
+      <span class="brand__mark">21</span>
+      <span class="brand__name">Automotive<span data-i18n="nav.tagline">Est. 2026 &middot; Dealership</span></span>
+    </a>
+
+    <nav aria-label="Primary">
+      <ul class="nav-links" data-open="false">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="inventory.html" data-i18n="nav.inventory">Inventory</a></li>
+        <li><a href="export.html" data-i18n="nav.exportCars">Export Cars</a></li>
+        <li><a href="book-test-drive.html" aria-current="page" data-i18n="nav.bookTestDrive">Book a Test Drive</a></li>
+        <li><a href="financing.html" data-i18n="nav.financing">Financing</a></li>
+        <li class="nav-dropdown">
+          <button type="button" class="nav-dropdown__toggle" aria-expanded="false" aria-haspopup="true">
+            <span data-i18n="nav.more">More</span>
+            <svg class="icon" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <ul class="nav-dropdown__menu">
+            <li><a href="warranty.html" data-i18n="nav.warranty">Warranty</a></li>
+            <li><a href="service-packages.html" data-i18n="nav.servicePackages">Service Packages</a></li>
+            <li><a href="accessories.html" data-i18n="nav.accessories">Accessories</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="navbar__actions">
+      <div class="pref-switcher">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+          <button type="button" class="lang-btn" data-lang-btn="ar">AR</button>
+        </div>
+        <select class="currency-select" data-currency-select aria-label="Currency">
+          <option value="USD">USD</option>
+          <option value="EGP">EGP</option>
+          <option value="SAR">SAR</option>
+          <option value="AED">AED</option>
+        </select>
+      </div>
+      <a class="navbar__phone" href="tel:+201500585100">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"></path></svg>
+        <strong>+20 150 058 5100</strong>
+      </a>
+      <a href="contact.html" class="btn btn-primary btn-sm" data-i18n="nav.getInTouch">Get In Touch</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow" data-i18n="btd.eyebrow">Book a Test Drive</span>
+      <h1 data-i18n="btd.title">Get behind the wheel</h1>
+      <p class="lead" data-i18n="btd.lead">Pick a car, choose a time that works, and we'll have it ready at the door — no pressure, no obligation.</p>
+    </div>
+  </section>
+
+  <section class="section section--compact-top">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div>
+          <div class="info-card" id="vehicle-summary-card">
+            <h3 style="margin-bottom: var(--space-4);" data-i18n="btd.selectedVehicle">Selected vehicle</h3>
+            <div class="vehicle-summary" data-field="vehicle-summary">
+              <div class="vehicle-summary__thumb">
+                <svg class="icon" viewBox="0 0 24 24" width="28" height="28"><rect x="1" y="6" width="18" height="10" rx="2"></rect><path d="M19 10h2.5a1 1 0 0 1 .9.55L23.5 13.5V16a1 1 0 0 1-1 1H21"></path><circle cx="6" cy="17" r="2"></circle><circle cx="17" cy="17" r="2"></circle></svg>
+              </div>
+              <div class="vehicle-summary__body">
+                <h3>General inquiry</h3>
+                <p>No specific vehicle selected yet</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__row" style="border-top: none; padding-top: 0; margin-top: 0;">
+              <div class="info-card__icon">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"></path><path d="m9 12 2 2 4-4"></path></svg>
+              </div>
+              <div>
+                <h3 data-i18n="btd.howItWorks">How booking works</h3>
+                <p data-i18n="btd.howItWorksText">Submit your preferred time below. A member of our team confirms by phone or email — usually within a few hours during business hours.</p>
+              </div>
+            </div>
+            <div class="info-card__row">
+              <div class="info-card__icon">
+                <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 6-10 7L2 6"></path></svg>
+              </div>
+              <div>
+                <h3 data-i18n="btd.deposit">Reserving with a deposit</h3>
+                <p data-i18n="btd.depositText">Want to guarantee the car is still there? Request a $100 refundable deposit hold below — we'll send a secure payment link separately. No card details are ever collected on this site.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <span class="eyebrow" data-i18n="btd.requestTitle">Test Drive Request</span>
+          <h2 style="margin-bottom: 8px;" data-i18n="btd.requestLead">Tell us when works</h2>
+          <p class="lead" style="margin-bottom: 28px;" data-i18n="btd.requiredNote">Fields marked * are required.</p>
+
+          <div class="form-success" data-visible="false" role="status" tabindex="-1">
+            <svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-field="success-message">Request received — we'll confirm shortly.</span>
+          </div>
+
+          <div class="form-error" data-visible="false" role="alert" tabindex="-1">
+            <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            <span data-field="error-message">Something went wrong. Please try again.</span>
+          </div>
+
+          <form id="booking-form" novalidate>
+            <div class="field">
+              <label for="vehicle-select" data-i18n="btd.vehicle">Vehicle</label>
+              <select id="vehicle-select" name="vehicleId">
+                <option value="" data-i18n="btd.generalInquiry2">General inquiry — no specific car yet</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="bk-date"><span data-i18n="btd.preferredDate">Preferred date</span> <span class="required">*</span></label>
+                <input type="date" id="bk-date" name="date" required />
+              </div>
+              <div class="field">
+                <label for="bk-time" data-i18n="btd.preferredTime">Preferred time</label>
+                <select id="bk-time" name="time">
+                  <option value="Morning" data-i18n="btd.morning">Morning (9am–12pm)</option>
+                  <option value="Afternoon" data-i18n="btd.afternoon">Afternoon (12pm–4pm)</option>
+                  <option value="Evening" data-i18n="btd.evening">Evening (4pm–7pm)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="bk-name"><span data-i18n="contact.fullName">Full name</span> <span class="required">*</span></label>
+                <input type="text" id="bk-name" name="name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="bk-phone"><span data-i18n="contact.phoneNumber">Phone number</span> <span class="required">*</span></label>
+                <input type="tel" id="bk-phone" name="phone" autocomplete="tel" inputmode="tel" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="bk-email"><span data-i18n="contact.emailAddress">Email address</span> <span class="required">*</span></label>
+              <input type="email" id="bk-email" name="email" autocomplete="email" required />
+            </div>
+
+            <div class="field">
+              <label for="bk-message" data-i18n="btd.anythingElse">Anything else we should know?</label>
+              <textarea id="bk-message" name="message"></textarea>
+            </div>
+
+            <label class="deposit-toggle">
+              <input type="checkbox" id="bk-deposit" name="depositRequested" />
+              <div>
+                <strong data-i18n="btd.depositCheckboxTitle">Reserve with a $100 refundable deposit</strong>
+                <p data-i18n="btd.depositCheckboxText">Optional. Holds the vehicle for you while we confirm. We'll email a secure payment link — no card details are collected on this page. Fully refundable if plans change.</p>
+              </div>
+            </label>
+
+            <button type="submit" class="btn btn-primary btn-block" id="booking-submit" data-i18n="btd.submit">Request Test Drive</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="brand">
+          <span class="brand__mark">21</span>
+          <span class="brand__name">Automotive<span data-i18n="nav.tagline">Est. 2026 &middot; Dealership</span></span>
+        </a>
+        <p data-i18n="footer.blurb">Hand-picked new and certified pre-owned vehicles with transparent pricing and honest service.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="21 Automotive on Instagram">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+          </a>
+          <a href="#" aria-label="21 Automotive on Facebook">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"></path></svg>
+          </a>
+          <a href="#" aria-label="21 Automotive on X">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18"><line x1="4" y1="4" x2="20" y2="20"></line><line x1="20" y1="4" x2="4" y2="20"></line></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+        <ul class="footer__links">
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="inventory.html" data-i18n="nav.inventory">Inventory</a></li>
+          <li><a href="export.html" data-i18n="nav.exportCars">Export Cars</a></li>
+          <li><a href="book-test-drive.html" data-i18n="nav.bookTestDrive">Book a Test Drive</a></li>
+          <li><a href="financing.html" data-i18n="nav.financing">Financing</a></li>
+          <li><a href="warranty.html" data-i18n="nav.warranty">Warranty</a></li>
+          <li><a href="service-packages.html" data-i18n="nav.servicePackages">Service Packages</a></li>
+          <li><a href="accessories.html" data-i18n="nav.accessories">Accessories</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.hours">Hours</h4>
+        <ul class="footer__links">
+          <li data-i18n="footer.everyDay">Every day</li>
+          <li data-i18n="footer.hoursTime">12pm – 12am</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <ul class="footer__links">
+          <li><a href="tel:+201500585100">+20 150 058 5100</a></li>
+          <li><a href="mailto:21automotivee@gmail.com">21automotivee@gmail.com</a></li>
+          <li>1234 Auto Plaza Drive<br/>Los Angeles, CA 90001</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span data-i18n="footer.copyright">&copy; 2026 21 Automotive. All rights reserved.</span>
+      <span data-i18n="footer.placeholderNote">Placeholder address — update before launch.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/vehicles-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
