@@ -19,6 +19,13 @@ people taking turns posing to camera at a crosswalk next to a red motorbike. Rem
 | Seoul | not started | - | - |
 | London | not started | - | - |
 
+**22 Oct 2026, new character sheets:** two new split-screen sheets were made for a second pair of
+people (with their consent), from real phone photos used as multiple `image_references`
+(`gpt_image_2_5`, flare, high, 2k, 16:9). Outfits: full Amiri (man) and full Prada (woman).
+The man's no-cap face drifted on re-generation, so his final sheet keeps the face from an
+earlier generation, composited locally. Sheets, photos, links and job IDs are kept off this
+repo. New sheets of Sabi and Lamis are still to do.
+
 **Open user feedback, read before rendering anything new:**
 1. "We don't look real." The faces come from AI character sheets, so the result has an AI look. The user plans to take
    **real camera photos** of both of them: phone back camera, daylight, no filter or portrait mode,
