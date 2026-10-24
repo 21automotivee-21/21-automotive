@@ -35,6 +35,11 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 
 | File | What | Status |
 |---|---|---|
+| `renders/shot01_morning_graded.jpg` (job `7444eea5-f6a8-486c-b144-5a9a3f79b28b`, Sunburst max 2k, 9 cr) | **Shot 1 FINAL master**: aerial, 4 cars on the GEM plaza | Most realistic so far; museum very close to the real GEM; 3 pyramids; all cars right |
+| `renders/shot04_morning_graded.jpg` (job `98edd8ee-9006-4962-b573-b7b29ed1a087` + NBP edit `e6d45845-1928-4160-89fc-c4cf11d138d9` 2 cr + local skyline patch) | **Shot 4 FINAL master**: low launch cam, sand spray | 4th pyramid removed (the NBP edit missed it; fixed with a free local patch from the neighbouring skyline) |
+| `renders/shot05_morning_graded.jpg` (job `c0300718-b54b-4cd9-b902-98f829eb5470`, 9 cr) | **Shot 5 FINAL master**: Bentley vs P1 side-on | Excellent; matte Bentley, teal P1, 3 pyramids |
+| `renders/shot06_morning_graded.jpg` (job `7766276c-8365-41fe-908b-238c6abe1a22`, 9 cr) | **Shot 6 FINAL master**: roundabout, tyre marks | Good, 3 pyramids, no smoke; cars only slightly sideways -> push the slide in the video prompt |
+| `renders/shot07_morning_graded.jpg` (job `5ddd1e12-798d-448f-ad70-31b0acb48294`, 9 cr) | **Shot 7 FINAL master**: Omar + Karen in the P1, morning | No smoke, 3 pyramids, faces close to the sheets |
 | `renders/shot06_master_v2_graded.jpg` (job `0a48d3f6-6d23-45da-904c-0332f81502f4`, Sunburst max 2k, 9 cr) | Shot 6 tandem drift, no smoke | Realistic, no smoke, tyre marks, all 4 cars correct. Drift angle is mild (cars barely sideways); museum drawn as a glass-pyramid facade, not the exact GEM |
 | `renders/shot13_master_v1_graded.jpg` (job `6e2c3deb-cbfc-478e-b506-fd500c13b77f`) | Shot 13 v1 | REJECTED by user: AI-looking face (posed, looking at lens) and Bentley distorted 'like a Beetle' from the outside-window rig angle |
 | `renders/shot13_master_v2_graded.jpg` (job `9ffe5808-9d4a-4206-9ec0-f6346956e9aa`, Sunburst max 2k, 9 cr) | Shot 13 v2: camera on the passenger seat, Sabeih candid, eyes on the road | Liked, but user wants MORNING and saw 4 pyramids -> superseded |
