@@ -83,7 +83,9 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 - **Kling 4.0 is on Higgsfield** (`kling4_0`, image-to-video with start image + up to 7 reference images/element IDs): 5 s = **7.5 cr at 720p / 10 cr at 1080p**. Full film at 1080p ~= 160 cr + retakes.
 - **Next: test pass = 1 start frame (shot 5, Bentley vs P1, 2 cr) + animate it in Kling 4.0 1080p (10 cr) and Cinema Studio 3.0 720p (25 cr) = 37 credits**, compare, then pick the model for the rest. **Test DONE 24 Oct (37 cr spent, ~711.88 left)**; results in MEDIA_MANIFEST. Waiting for the user's pick.
 
-## RULE: video model + sound (set by the user, 24 Oct)
+## RULE: video model (UPDATED 24 Oct, later): **Kling 4.0** (`kling4_0`, mode image-to-video, 1080p, 5 s, 10 cr) for all clips, chosen by the user after comparing Cinema Studio 3.0 / Seedance 2.5 / Kling 4.0 on shot 7. Kling 4.0 i2v does not accept element IDs; the start image carries identity. Keep camera moves simple/locked to avoid duplicated pyramids. Katana not used (autonomous, unpriced, no per-shot control); possible bonus edit later.
+
+## (superseded) RULE: video model + sound (set by the user, 24 Oct)
 - User picked **Cinema Studio Video 3.0** over Kling 4.0 after the test. Use `cinematic_studio_3_0`, **720p, genre `action`, `generate_audio: true` ALWAYS** (the test clip was silent only because audio defaults to off; audio costs nothing extra: 25 cr per 5 s either way).
 - Style brief: real Hollywood, "$1-billion" street-race scene: drifting around each other, drifting through the streets, hitting objects (cones, barriers, crates) and carrying on. See SHOTLIST v2.
 - Budget at 711.88 cr: 16 masters x 5 = 80 + 16 clips x 25 = 400 -> ~480, leaving ~230 for redos.
