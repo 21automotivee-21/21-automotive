@@ -1,0 +1,18 @@
+# Draft v3 (25 Oct): continuity re-edit. Columns: shot, clip, in (s), length in the film (s), speed.
+# Cuts land on movement (cars entering/leaving frame), slow clips are sped up, shot 11 is dropped
+# (its only clips show the wall scrape the user rejected), and the race runs left to right.
+01 ../clips/shot01_kling.mp4 0.5 3.0
+02 ../clips/shot02_kling.mp4 0.5 2.0
+03 ../clips/shot03_kling.mp4 0.5 1.5
+04 ../clips/shot04_kling.mp4 1.5 2.5
+05 ../clips/shot05_clip_v1.mp4 0.5 3.0 1.5
+06 ../clips/shot06_seedance_fast.mp4 0.0 3.0
+07 ../clips/shot07_clip_kling40.mp4 1.0 2.0
+08 ../clips/shot08_kling.mp4 0.3 3.0
+09 ../clips/shot09_kling.mp4 0.0 2.5
+10 ../clips/shot10_kling.mp4 0.0 3.5
+12 ../clips/shot12_kling.mp4 0.3 4.0 1.1
+13 ../clips/shot13_kling.mp4 1.0 3.0
+14 ../clips/shot14_close_seedance.mp4 0.0 4.0 1.25
+15 ../clips/shot15_kling.mp4 0.5 3.5 1.15
+16 ../clips/shot16_kling.mp4 0.4 4.5
