@@ -31,13 +31,15 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 | `fahmy_sheet.webp`, `rou_sheet.webp`, `karen_sheet.webp`, `omar_face/body.webp` (chat upload 24 Oct) | People | **APPROVED** character references (Elements `Race-Fahmy`, `Race-ROU`, `Race-Karen`, `Race-Omar`). Private, never commit |
 
 ## Generated media
-(Approved look: Sunburst max 2k + `scripts/film_grade.py`. Graded copies live in `renders/`, git-ignored.)
+(Approved look: Sunburst max 2k + `scripts/film_grade.py`; fix small errors like an extra pyramid with a 2-cr Nano Banana Pro edit. Graded copies live in `renders/`, git-ignored.)
 
 | File | What | Status |
 |---|---|---|
 | `renders/shot06_master_v2_graded.jpg` (job `0a48d3f6-6d23-45da-904c-0332f81502f4`, Sunburst max 2k, 9 cr) | Shot 6 tandem drift, no smoke | Realistic, no smoke, tyre marks, all 4 cars correct. Drift angle is mild (cars barely sideways); museum drawn as a glass-pyramid facade, not the exact GEM |
 | `renders/shot13_master_v1_graded.jpg` (job `6e2c3deb-cbfc-478e-b506-fd500c13b77f`) | Shot 13 v1 | REJECTED by user: AI-looking face (posed, looking at lens) and Bentley distorted 'like a Beetle' from the outside-window rig angle |
-| `renders/shot13_master_v2_graded.jpg` (job `9ffe5808-9d4a-4206-9ec0-f6346956e9aa`, Sunburst max 2k, 9 cr) | Shot 13 v2: camera on the passenger seat, Sabeih candid, eyes on the road | Much more real: real quilted Bentley cabin, natural light, P1 alongside, lit pyramids. Minor: a second set of pyramids at the right edge |
+| `renders/shot13_master_v2_graded.jpg` (job `9ffe5808-9d4a-4206-9ec0-f6346956e9aa`, Sunburst max 2k, 9 cr) | Shot 13 v2: camera on the passenger seat, Sabeih candid, eyes on the road | Liked, but user wants MORNING and saw 4 pyramids -> superseded |
+| `renders/shot13_master_v3_graded.jpg` (job `b2be4702-08c7-4550-bda0-b564616710e4`, Sunburst max 2k from v2, 9 cr) | Shot 13 v3 morning | Morning OK but still a 4th pyramid through the windscreen |
+| `renders/shot13_master_v4_graded.jpg` (job `f9a0cbc5-7cfd-4c25-bd20-e0d7f78d44c8`, Nano Banana Pro edit of v3, 2 cr, 2752x1536) | **Shot 13 FINAL master**: morning, exactly 3 pyramids | APPROVED candidate. Use as the start image for the shot 13 clip |
 | `renders/shot07_master_v2_graded.jpg` (= shot07_SB_2k + film grade) | Shot 7 Omar + Karen | APPROVED look (still has tyre smoke outside; regenerate without smoke before animating) |
 | `shot06_master_v1.png` (job `fe50240a-c60f-403f-b3bb-23a31f20a9e5`, Sunburst max 1k, 5 cr, 1344x752) | Shot 6 tandem drift, 4 cars, GEM roundabout | Strong. All 4 cars accurate (Bentley now has the correct single-oval lamps, P1 teal, Porsche graphics, R8 roof down). Museum and pyramids read as Egypt. Look is a bit glossy/CG compared with Nano Banana Pro |
 | `shot07_NBP_2k.png` (job `2e8ea630-52fe-408f-a9d0-8b5116dadd43`, Nano Banana Pro 2k, 2 cr, 2752x1536) | Shot 7 head-to-head A | Most realistic (looks like real onboard footage). Omar + Karen faces good. Weak: ordinary seatbelts and a generic cabin, not a P1 race cockpit |

@@ -91,6 +91,7 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 - People: candid, unposed, NOT looking at the camera; side / three-quarter views; real skin with imperfections. Posed lens-facing portraits read as AI.
 - Cars: avoid camera rigs that put the car's own door/mirror big in the foreground (distorted the Bentley 'like a Beetle'). Prefer inside-cabin or clean exterior angles.
 - No tyre smoke. Museum = the real facade from the location photo.
+- **Morning light for the whole film** (not golden/blue hour). **Exactly 3 pyramids**, never 4, no duplicate pyramids.
 - Sabeih's `Sabih-Main` sheet is itself AI-generated (from the couple project); real photos of Sabeih would improve face realism further.
 
 ## RULE: master image model (set by the user, 24 Oct)

@@ -5,6 +5,8 @@ Direction from the user (24 Oct): a real cinematic, $1-billion-Hollywood street 
 Structure still follows the F1 movie Daytona scene: **tension -> launch -> battle -> chaos -> climax -> finish**.
 Main rivalry: **Sabeih (Bentley, SBH) vs Omar (P1, OMR, with Karen)**. Sabeih wins.
 
+**MORNING, not sunset** (user, 24 Oct): the whole film is shot in clear Giza morning light (sun low-ish in the east, crisp shadows, light desert haze). **Exactly THREE pyramids** in every view (Khufu, Khafre, smaller Menkaure), never four or more, no duplicates.
+
 **NO tyre smoke** (user, 24 Oct): no smoke clouds anywhere. Realism instead: tyre marks on the asphalt, a little dust and sand kicked up, heat haze, debris. Everything must look like real footage, not CGI.
 
 **Views must read as Egypt in every shot** (user, 24 Oct): the Grand Egyptian Museum, the pyramids, the Sphinx, Giza's desert-sand light, palms and sandstone, visible in the frame or through the windows even in the in-car shots. Avoid shop signs and billboards (AI turns Arabic text into gibberish).
@@ -14,7 +16,7 @@ Cinema 3.0 clips are 4 s minimum; shorter beats are trimmed in the edit. Nobody 
 
 | # | Time | Shot | Camera | Location | Elements in the shot |
 |---|---|---|---|---|---|
-| 1 | 0.0-3.0 | Golden-hour aerial: the four cars nose-to-tail rolling onto the empty plaza in front of the Grand Egyptian Museum, facade lines pointing at the pyramids | Slow drone push-in, high to mid | GEM plaza (ref: GEM aerial) | 4 cars |
+| 1 | 0.0-3.0 | Morning aerial: the four cars nose-to-tail rolling onto the empty plaza in front of the Grand Egyptian Museum, facade lines pointing at the pyramids | Slow drone push-in, high to mid | GEM plaza (ref: GEM aerial) | 4 cars |
 | 2 | 3.0-5.0 | Eyes and hands: Sabeih's eyes in the mirror; Omar grips the wheel while Karen buckles up and grins; Fahmy pushes his tinted glasses up; ROU cracks her knuckles on the R8 wheel | Macro, shallow focus, 4 fast cuts | In-cabin | 1 driver sheet + its car per cut (Karen with Omar) |
 | 3 | 5.0-6.5 | Revs: tachometer needles slam, exhaust heat haze, a plastic bottle on the ground trembles | Low static cam at the rear diffusers | GEM plaza | cars only |
 | 4 | 6.5-9.0 | LAUNCH: four cars explode off the line, wheelspin, sand and grit spray at the lens | Ultra-low ground cam, cars blast past both sides of the lens | GEM plaza | 4 cars |
@@ -27,7 +29,7 @@ Cinema 3.0 clips are 4 s minimum; shorter beats are trimmed in the edit. Nobody 
 | 11 | 25.5-29.0 | Battle montage on the plateau road: bumper cam, wheel-arch cam, the Bentley scrapes a barrier with a shower of sparks, a side mirror snaps off the P1 and tumbles past the lens | Fast cuts on every beat (~0.7 s) | Giza plateau road, pyramids behind | Bentley + P1 |
 | 12 | 29.0-32.0 | Pass in front of the Sphinx: all four cars drifting through the bend in a line, a light trail of desert dust behind them | Low wide, Sphinx in frame | Sphinx area | 4 cars |
 | 13 | 32.0-34.0 | Sabeih glances across, smirks, downshifts | Side window POV | In-cabin Bentley | Sabeih + Bentley |
-| 14 | 34.0-38.0 | Climax: Sabeih vs Omar door to door at blue hour, the three pyramids lit behind them, both cars brushing panels, sparks between the doors | One long held tracking shot pulling slowly ahead | Panorama point road | Bentley + P1 |
+| 14 | 34.0-38.0 | Climax: Sabeih vs Omar door to door in bright morning sun, the three pyramids behind them, both cars brushing panels, sparks between the doors | One long held tracking shot pulling slowly ahead | Panorama point road | Bentley + P1 |
 | 15 | 38.0-41.0 | Photo finish: the Bentley's nose crosses first by inches; music cuts to silence | Ultra-slow-motion, side-on, ground level | Finish line by the pyramids | Bentley + P1 |
 | 16 | 41.0-45.0 | Aftermath: four cars parked in a fan, engines ticking, heat shimmer off the bonnets, Karen out of the P1 cheering, close-up of the `SBH` plate, cut to black, title "GIZA GRAND PRIX" | Slow drone pull-out, then static macro | Panorama point | all |
 
