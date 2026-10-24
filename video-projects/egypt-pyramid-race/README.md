@@ -27,15 +27,16 @@ character (Love Rally "Selim"/"Rami", Zeina, Zara, Lames are NOT in this film) a
 
 | Friend | Reference to use | Status |
 |---|---|---|
-| Sabeih | Higgsfield Element **`Sabih-Main`** (`bd818291-5d37-4a49-aadb-685155266c07`), character sheet set 23 Oct 2026: long curly hair, short full beard, black leather biker jacket | Exists. Waiting for the user to confirm it's the one for this film |
-| Omar | none | **Missing**: need photos |
-| Fahmy | none | **Missing**: need photos |
-| ROU | none | **Missing**: need photos |
-| Karen (passenger in Omar's P1) | user says she has a character sheet, but **no "Karen" was found in the Higgsfield account** (Elements or Soul characters, checked 24 Oct) | **Missing**: user to send the sheet or its Higgsfield name. Do NOT substitute "Lames" or the unlabeled woman's photos |
+| Sabeih | Higgsfield Element **`Sabih-Main`** (`bd818291-5d37-4a49-aadb-685155266c07`): long curly hair, full beard, black leather biker jacket, white tee, grey cargos | **LOCKED**: the user sent this exact sheet as Sabeih's reference (24 Oct) |
+| Omar | Higgsfield Element **`Race-Omar`** (`5a16c501-05d2-4054-92d7-665304169902`): face close-up + full body; short tight curls, short beard, black bomber, black jeans, white sneakers | **LOCKED** (user-supplied, 24 Oct) |
+| Karen (passenger in Omar's P1) | Higgsfield Element **`Race-Karen`** (`b9a08365-d269-4ab2-ae8c-b81ce3896dc4`): user's character sheet; long straight black hair, black cropped bomber, white tank, grey pleated mini skirt | **LOCKED** (user-supplied, 24 Oct) |
+| Fahmy | none | **Missing**: need photos or a sheet |
+| ROU | none | **Missing**: need photos or a sheet |
 
-Unlabeled upload seen in the account (24 Oct): a man with short curly hair and a beard (media `ee9bdf69-...`). The user must say who it is before it gets used.
+Resolved: the unlabeled upload of a man with short curls (media `ee9bdf69-...`) is Omar.
+Karen's outfit has visible brand logos; AI tends to garble logos, so QC them or plain them out in prompts.
 Photos needed per friend: phone back camera, daylight, no filter or portrait mode, face front + left 3/4 + right 3/4 + full body.
-Each one then becomes a named Element (`Race-Omar`, `Race-Fahmy`, `Race-ROU`) and the user approves it before any shot is generated.
+Each one then becomes a named Element (`Race-Fahmy`, `Race-ROU` still to make) and the user approves it before any shot is generated.
 
 ## Locations (street references to come from the user)
 - **Grand Egyptian Museum**: triangular translucent-alabaster facade, the hanging obelisk of Ramesses II on the entrance plaza, the big front plaza and access roads.
