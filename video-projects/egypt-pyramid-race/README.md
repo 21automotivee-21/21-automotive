@@ -18,7 +18,7 @@ What to borrow from it (also see `SHOTLIST.md`):
 |---|---|---|---|---|
 | 1 | **Sabeih** | Bentley Continental GT (new 4th gen), **customized** | `SBH` | **LOCKED** as Element `Race-Bentley-SBH` (`da353314-38ef-4c6c-ade4-1e60ea1b8366`): satin/matte burgundy-plum wrap, gloss black twisted multi-spoke wheels, red calipers, black grille/intakes, single oval LED headlamps |
 | 2 | **Omar** + passenger **Karen** | McLaren P1 | `OMR` | TBC colour (P1 classic: Volcano Orange / Papaya) |
-| 3 | **Fahmy** | Porsche 911 GT3 RS, **Singer-design**, burgundy | `WIZ` | Burgundy, Singer-style details (see open question 3) |
+| 3 | **Fahmy** | Porsche 992 911 GT3 RS | `WIZ` | **LOCKED** as Element `Race-Porsche-WIZ` (`1d34bece-4f83-4493-9301-3007b7f63821`): GLOSSY deep magenta-burgundy, white GT3 RS side script, white front bumper accents, swan-neck wing with white PORSCHE/RS, dark multi-spoke wheels |
 | 4 | **ROU** (4th friend) | Audi R8 V10 Spyder (2nd gen), red | `ROU` | Bright red, roof down, silver 5-spoke wheels, red calipers, black side blade, black honeycomb grille, no wing |
 
 ## Character references (one locked reference per friend; check this table before EVERY generation)
@@ -60,12 +60,12 @@ Each one then becomes a named Element (`Race-Fahmy`, `Race-ROU` still to make) a
   wide/exterior battle shots = 2 cars only (faces too small to need sheets); in-cabin close-ups = 1 driver sheet (+ Karen in the P1) + that car.
 
 ## Open questions for the user
-0c. Colour clash: Bentley = MATTE burgundy-plum, Fahmy's GT3 RS = burgundy too. Keep the Porsche GLOSSY (or a different shade) so the two never get confused in wide shots.
+0c. Colour clash handled: Bentley = MATTE burgundy-plum; Porsche = GLOSSY magenta-burgundy with white GT3 RS graphics and a big wing. Always state 'matte' vs 'glossy' in prompts.
 0. ~~ROU's Audi~~: answered, **R8 V10 Spyder** exactly as photo 1. Photo 2 (R8 GT coupe) is NOT used. Still need a Spyder rear 3/4 + side.
 0b. Omar's P1: photo 1 = green-teal P1 GTR/LM-style track car (snorkel, fixed big wing, silver wheels); photo 2 = purple road P1 (active wing, dark wheels, orange calipers). Which one?
 1. ~~Car 4 driver~~: answered, ROU is the 4th friend.
 2. ~~Sabeih's Bentley~~: answered with 4 photos (24 Oct), all the same car.
-3. Fahmy's car: a modern **992 GT3 RS** in burgundy with Singer-style touches, or a classic **Singer-reimagined 964-shape 911**? These look very different.
+3. ~~Fahmy's car~~: answered, modern 992 GT3 RS (photos 24 Oct).
 4. Omar's P1 colour.
 5. Faces: the user wants each friend's correct character reference used (see table above). Still open: should faces appear (helmet off / in-cabin close-ups like the movie)? If yes we need real photos
    (same rule as the couple project: phone back camera, daylight, no filter, front + 3/4 views).
