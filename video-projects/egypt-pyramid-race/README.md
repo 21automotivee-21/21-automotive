@@ -45,7 +45,8 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 - Light: golden-hour start, ending at blue hour with the pyramids lit (night racing lights like Daytona).
 
 ## Status (24 Oct 2026)
-- All 5 people and all 4 cars are locked as Higgsfield Elements (free). **Nothing generated yet. No credits spent.**
+- All 5 people and all 4 cars are locked as Higgsfield Elements (free).
+- **All 16 master images DONE (24 Oct)**, see MEDIA_MANIFEST + `renders/ALL_16_MASTERS.jpg`. Balance after masters: 502.88 cr. Next: animate with Cinema Studio 3.0 (720p, audio on, ~25 cr per clip).
 - Location refs received (GEM aerial, GEM-to-pyramids bridge road, GEM golden-hour aerial).
 - Waiting on the user for: OK on the test pass (see Production plan), plus optional refs for the Sphinx / plateau / Panorama point.
 

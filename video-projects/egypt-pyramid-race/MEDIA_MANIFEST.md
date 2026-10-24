@@ -40,6 +40,17 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 | `renders/shot05_morning_graded.jpg` (job `c0300718-b54b-4cd9-b902-98f829eb5470`, 9 cr) | **Shot 5 FINAL master**: Bentley vs P1 side-on | Excellent; matte Bentley, teal P1, 3 pyramids |
 | `renders/shot06_morning_graded.jpg` (job `7766276c-8365-41fe-908b-238c6abe1a22`, 9 cr) | **Shot 6 FINAL master**: roundabout, tyre marks | Good, 3 pyramids, no smoke; cars only slightly sideways -> push the slide in the video prompt |
 | `renders/shot07_morning_graded.jpg` (job `5ddd1e12-798d-448f-ad70-31b0acb48294`, 9 cr) | **Shot 7 FINAL master**: Omar + Karen in the P1, morning | No smoke, 3 pyramids, faces close to the sheets |
+| `renders/shot02_morning_graded.jpg` (job `4863bf52-1995-4f68-9fb2-4a7deb4aaf00` + NBP edit `ff0a9e2b-d031-40f8-b71c-849ec69a91a4` 2 cr) | **Shot 2 FINAL**: ROU at the start in the R8 | ROU matches her sheet; 4th pyramid removed. A few spectators far in the background |
+| `renders/shot03_morning_graded.jpg` (job `6fdf2e85-050b-400c-96db-9fdd5ed73f62`) | **Shot 3 FINAL**: rev-up, exhaust shimmer, bottle | Good |
+| `renders/shot08_morning_graded.jpg` (job `8d9d287f-4c1c-4adb-bb2b-ae91cbd9b2ea`) | **Shot 8 FINAL**: Porsche through cones + water barriers, R8 behind | Excellent |
+| `renders/shot09_morning_graded.jpg` (job `848e388f-e81f-478c-804f-8c973cd174fb`) | **Shot 9 FINAL**: Fahmy pushes glasses up, water on the glass | Fahmy matches his sheet very well |
+| `renders/shot10_morning_graded.jpg` (job `3a9f216e-6673-4892-b863-c9fc7a9e0355`; first try `79bd8e94` failed, refunded) | **Shot 10 FINAL**: R8 + crates and oranges | Crates mostly still stacked; the clip must show them tumbling |
+| `renders/shot11_morning_graded.jpg` (job `2eb15011-3054-4128-ab34-2cef5c4e1165`; first try `d07df05b` failed, refunded) | **Shot 11 FINAL**: Bentley sparks on the kerb wall, P1 alongside | Good |
+| `renders/shot12_morning_graded.jpg` (job `70ce1e30-5ac6-4e2d-8839-48f5425e26ef`; first try `794288b2` failed, refunded) | **Shot 12 FINAL**: four cars past the Sphinx | Good, Sphinx a bit small |
+| `renders/shot14_morning_graded.jpg` (job `a904360e-7134-4d75-9570-b290d00659e6`) | **Shot 14 FINAL**: climax door to door, sparks | Excellent |
+| `renders/shot15_morning_graded.jpg` (job `5122e642-5db4-4686-95b2-8fe6f117941b`) | **Shot 15 FINAL**: photo finish on a chalk line | Good |
+| `renders/shot16_morning_graded.jpg` (job `5bc8734c-26ed-4294-b425-3a3a78a3b153`) | **Shot 16 FINAL**: aftermath at Panorama point, Karen cheering | Good |
+| `renders/ALL_16_MASTERS.jpg` | Contact sheet of the 16 final masters in film order | |
 | `renders/shot06_master_v2_graded.jpg` (job `0a48d3f6-6d23-45da-904c-0332f81502f4`, Sunburst max 2k, 9 cr) | Shot 6 tandem drift, no smoke | Realistic, no smoke, tyre marks, all 4 cars correct. Drift angle is mild (cars barely sideways); museum drawn as a glass-pyramid facade, not the exact GEM |
 | `renders/shot13_master_v1_graded.jpg` (job `6e2c3deb-cbfc-478e-b506-fd500c13b77f`) | Shot 13 v1 | REJECTED by user: AI-looking face (posed, looking at lens) and Bentley distorted 'like a Beetle' from the outside-window rig angle |
 | `renders/shot13_master_v2_graded.jpg` (job `9ffe5808-9d4a-4206-9ec0-f6346956e9aa`, Sunburst max 2k, 9 cr) | Shot 13 v2: camera on the passenger seat, Sabeih candid, eyes on the road | Liked, but user wants MORNING and saw 4 pyramids -> superseded |
