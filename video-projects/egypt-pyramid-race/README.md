@@ -82,6 +82,11 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 - **Kling 4.0 is on Higgsfield** (`kling4_0`, image-to-video with start image + up to 7 reference images/element IDs): 5 s = **7.5 cr at 720p / 10 cr at 1080p**. Full film at 1080p ~= 160 cr + retakes.
 - **Next: test pass = 1 start frame (shot 5, Bentley vs P1, 2 cr) + animate it in Kling 4.0 1080p (10 cr) and Cinema Studio 3.0 720p (25 cr) = 37 credits**, compare, then pick the model for the rest. **Test DONE 24 Oct (37 cr spent, ~711.88 left)**; results in MEDIA_MANIFEST. Waiting for the user's pick.
 
+## RULE: video model + sound (set by the user, 24 Oct)
+- User picked **Cinema Studio Video 3.0** over Kling 4.0 after the test. Use `cinematic_studio_3_0`, **720p, genre `action`, `generate_audio: true` ALWAYS** (the test clip was silent only because audio defaults to off; audio costs nothing extra: 25 cr per 5 s either way).
+- Style brief: real Hollywood, "$1-billion" street-race scene: drifting around each other, drifting through the streets, hitting objects (cones, barriers, crates) and carrying on. See SHOTLIST v2.
+- Budget at 711.88 cr: 16 masters x 5 = 80 + 16 clips x 25 = 400 -> ~480, leaving ~230 for redos.
+
 ## RULE: master image model (set by the user, 24 Oct)
 - Every scene's master/start image = **GPT Image 2.5, variant `sunburst`, quality `max`** (`gpt_image_2_5`). Not Nano Banana, not other image models.
 - Resolution: **1k (5 cr) by default, aiming for 1080p video**; go to 2k (9 cr) or 4k (15 cr) only when a shot needs it (e.g. close-ups, the hero frames). Quote before each.

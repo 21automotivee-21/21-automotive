@@ -1,23 +1,33 @@
-# Shot list v1 (draft, ~45 s, 16:9)
+# Shot list v2 — "Hollywood street race" (45 s, 16:9)
 
-Modelled on the structure of the F1 movie Daytona scene: **tension, launch, battle, climax, finish**.
-Main rivalry: **Sabeih (Bentley) vs Omar (P1)**, with Karen riding with Omar. Locations get swapped for the user's street references once they arrive. Durations are targets for beat-sync.
+Direction from the user (24 Oct): a real cinematic, $1-billion-Hollywood street race. Cars **drift around each other**,
+**drift through the streets**, **hit objects on the street and keep going**. Faces from the character sheets, no helmets.
+Structure still follows the F1 movie Daytona scene: **tension -> launch -> battle -> chaos -> climax -> finish**.
+Main rivalry: **Sabeih (Bentley, SBH) vs Omar (P1, OMR, with Karen)**. Sabeih wins.
 
-| # | Time | Shot | Camera | Location | Notes |
+Pipeline per shot: master image in **GPT Image 2.5 Sunburst max 1k** -> **Cinema Studio Video 3.0, 720p, audio ON, genre action**.
+Cinema 3.0 clips are 4 s minimum; shorter beats are trimmed in the edit. Nobody gets hurt: every hit is an object, the streets are closed and empty.
+
+| # | Time | Shot | Camera | Location | Elements in the shot |
 |---|---|---|---|---|---|
-| 1 | 0.0-3.0 | Establishing aerial: the four cars lined up side by side, engines idling, long shadows | Slow drone push-in, very high to mid | GEM front plaza, the hanging obelisk behind them, pyramids on the horizon | Golden hour. Silence plus wind. |
-| 2 | 3.0-5.0 | Extreme close-ups, one per driver: eyes in the mirror, bare hand tightening on the wheel (street clothes, no helmets) | Macro, shallow focus | In-cabin | 4 quick cuts (~0.5 s each), plus Karen beside Omar. One driver sheet per cut. |
-| 3 | 5.0-6.5 | Rev needles jump, exhaust flames / heat haze | Low static cam at the rear diffuser | GEM plaza | First beat drop builds here. |
-| 4 | 6.5-9.0 | LAUNCH: all four cars leave the line, tyre smoke | Ultra-low ground cam at the front, cars pass over or past the lens | GEM plaza | Beat drops on the launch. |
-| 5 | 9.0-12.0 | Side-by-side drag on the road toward the pyramids: Bentley (SBH) and P1 (OMR) pull clear of the others | Long-lens tracking from a chase car, side-on | Road from GEM to the plateau | Motion-blurred background. |
-| 6 | 12.0-14.5 | Inside the P1: Omar checks the mirror, the Bentley is right there; Karen turns to look back | Onboard POV over the shoulder, looking back through the rear glass / mirror | Same road | Daytona-style mirror shot. |
-| 7 | 14.5-17.5 | Overtake: GT3 RS (WIZ) dives up the inside | Whip-pan from a static roadside cam | Corner with the pyramids behind | Cut on the beat. |
-| 8 | 17.5-21.0 | Top-down drone: four cars snaking along the plateau road, long shadows | Overhead, then tilt up to reveal the Great Pyramid | Giza plateau | Breather moment, music thins out. |
-| 9 | 21.0-24.0 | Pass in front of the Sphinx | Low wide, Sphinx in frame, cars blur through | Sphinx area | Hero shot. |
-| 10 | 24.0-30.0 | Battle montage: bumper cam, wheel-arch cam, sparks on a kerb, a mirror fold, gear shifts | Mixed rig cams | Plateau roads | Fast cuts on every beat (~0.75 s). |
-| 11a | 30.0-31.5 | Bentley cabin: Sabeih glances across at the P1 | Side window POV | Panorama point road | Sabeih sheet + Bentley. |
-| 11b | 31.5-33.0 | P1 cabin: Omar stares back, Karen grips the door, then laughs | Side window POV from the passenger side | Same | Omar + Karen sheets + P1. |
-| 11 | 33.0-36.0 | Climax: **Sabeih vs Omar door to door** as the sun sets behind the three pyramids | Long held tracking shot, slowly pulling ahead of the cars | Panorama point road | Blue hour; pyramids lit. |
-| 12 | 36.0-39.0 | Photo finish: **Sabeih's Bentley** noses ahead of Omar's P1 on the line | Ultra-slow-motion, side-on, ground level | Finish line (location TBC) | Music cuts to silence. |
-| 13 | 39.0-43.0 | Aftermath: cars parked in a fan shape, headlights on, pyramids lit behind | Slow drone pull-out | Panorama point | Engines ticking, wind. |
-| 14 | 43.0-45.0 | Plate close-up on the winner, `SBH`, then cut to black, title card | Static macro | Same | Title, e.g. "GIZA GRAND PRIX". |
+| 1 | 0.0-3.0 | Golden-hour aerial: the four cars nose-to-tail rolling onto the empty plaza in front of the Grand Egyptian Museum, facade lines pointing at the pyramids | Slow drone push-in, high to mid | GEM plaza (ref: GEM aerial) | 4 cars |
+| 2 | 3.0-5.0 | Eyes and hands: Sabeih's eyes in the mirror; Omar grips the wheel while Karen buckles up and grins; Fahmy pushes his tinted glasses up; ROU cracks her knuckles on the R8 wheel | Macro, shallow focus, 4 fast cuts | In-cabin | 1 driver sheet + its car per cut (Karen with Omar) |
+| 3 | 5.0-6.5 | Revs: tachometer needles slam, exhaust heat haze, a plastic bottle on the ground trembles | Low static cam at the rear diffusers | GEM plaza | cars only |
+| 4 | 6.5-9.0 | LAUNCH: four cars explode off the line, tyre smoke engulfs the camera | Ultra-low ground cam, cars blast past both sides of the lens | GEM plaza | 4 cars |
+| 5 | 9.0-12.0 | Bentley and P1 pull clear, door to door on the boulevard beside the museum | Long-lens tracking from a chase car (test shot redone) | Boulevard beside GEM (ref: GEM aerial) | Bentley + P1 |
+| 6 | 12.0-15.0 | **Tandem drift around the roundabout** in front of GEM: Bentley and P1 sideways together, inches apart, smoke pouring off the rear tyres; the Porsche and R8 follow through the smoke | Drone orbiting overhead, then dropping low | The roundabout in front of GEM (ref: GEM aerial) | 4 cars |
+| 7 | 15.0-17.0 | Inside the P1 mid-drift: Omar counter-steering, Karen screaming and laughing, the Bentley's matte nose filling the side window | Interior, passenger-side wide lens | In-cabin P1 | Omar + Karen + P1 |
+| 8 | 17.0-20.0 | **Impact 1**: the Porsche drifts wide and smashes through a row of orange traffic cones and stacked water barriers; plastic and water explode into the air, it keeps going | Low roadside cam, 120 fps slow motion into real speed | Road under the stone bridge (ref: bridge road) | Porsche (+ R8 behind) |
+| 9 | 20.0-22.5 | Fahmy in the Porsche, unbothered, flicks his glasses back down | Dashboard cam | In-cabin Porsche | Fahmy + Porsche |
+| 10 | 22.5-25.5 | **Impact 2**: the R8 Spyder clips a stack of empty wooden fruit crates on the kerb; crates burst into splinters over the open cockpit, ROU ducks and floors it | Tracking from the side, roof-down cockpit visible | Palm-lined road toward the plateau | ROU + R8 |
+| 11 | 25.5-29.0 | Battle montage on the plateau road: bumper cam, wheel-arch cam, the Bentley scrapes a barrier with a shower of sparks, a side mirror snaps off the P1 and tumbles past the lens | Fast cuts on every beat (~0.7 s) | Giza plateau road, pyramids behind | Bentley + P1 |
+| 12 | 29.0-32.0 | Pass in front of the Sphinx: all four cars drifting through the bend in a line, dust storm behind them | Low wide, Sphinx in frame | Sphinx area | 4 cars |
+| 13 | 32.0-34.0 | Sabeih glances across, smirks, downshifts | Side window POV | In-cabin Bentley | Sabeih + Bentley |
+| 14 | 34.0-38.0 | Climax: Sabeih vs Omar door to door at blue hour, the three pyramids lit behind them, both cars brushing panels, sparks between the doors | One long held tracking shot pulling slowly ahead | Panorama point road | Bentley + P1 |
+| 15 | 38.0-41.0 | Photo finish: the Bentley's nose crosses first by inches; music cuts to silence | Ultra-slow-motion, side-on, ground level | Finish line by the pyramids | Bentley + P1 |
+| 16 | 41.0-45.0 | Aftermath: four cars parked in a fan, smoking tyres, Karen out of the P1 cheering, close-up of the `SBH` plate, cut to black, title "GIZA GRAND PRIX" | Slow drone pull-out, then static macro | Panorama point | all |
+
+## Sound (built in the edit, Daytona-scene style)
+- Each Cinema 3.0 clip comes with its own audio (engines, tyres, impacts). Those are the base layer.
+- On top: engine revs/downshifts matched to each car, tyre squeal on the drifts, plastic/water/wood/metal impact hits, sparks, whooshes on every cut.
+- An original pulse-and-orchestra racing score: quiet ticking build-up (shots 1-3), drop on the launch (4), rising through the chaos (6-12), peak on the climax (14), **hard cut to silence** on the photo finish (15), low drone outro (16).
