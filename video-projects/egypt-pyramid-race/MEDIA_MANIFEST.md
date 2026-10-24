@@ -17,8 +17,8 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 ## Car and driver references (from the user)
 | File | Car / person | Notes |
 |---|---|---|
-| `audi_1_front34.jpg` (chat upload 24 Oct) | ROU - Audi R8 | Front 3/4. Red 2nd-gen **R8 V10 Spyder**, roof down, silver 5-spoke wheels, red calipers, black side blade, black honeycomb grille |
-| `audi_2_rear34.jpg` (chat upload 24 Oct) | ROU - Audi R8 | Rear 3/4, but a different car: **R8 GT coupe** (facelift) with a big fixed rear wing, black wheels, carbon side blade. Conflicts with photo 1, see README open question |
+| `audi_1_front34.jpg` (chat upload 24 Oct) | ROU - Audi R8 | **APPROVED, main reference.** Front 3/4. Red 2nd-gen **R8 V10 Spyder**, roof down, silver 5-spoke wheels, red calipers, black side blade, black honeycomb grille |
+| `audi_2_rear34.jpg` (chat upload 24 Oct) | ROU - Audi R8 | Rear 3/4, but a different car: **R8 GT coupe** (facelift) with a big fixed rear wing, black wheels, carbon side blade. **REJECTED by the user (24 Oct): do not use.** |
 
 ## Generated media
 | File | What | Status |
