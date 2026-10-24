@@ -16,6 +16,13 @@ Main rivalry: **Sabeih (Bentley, SBH) vs Omar (P1, OMR, with Karen)**. Sabeih wi
 - No scraping, no sparks, no wall or door contact. Clean, real driving only.
 - People inside at TRUE human scale (small in wide shots). Recognisable faces only in the in-car close-ups.
 
+**Continuity rules** (user, 25 Oct, after draft v2: 'every shot continues a shot that does not exist'):
+- One screen direction for the whole race: cars travel LEFT to RIGHT in every side and tracking shot (head-on shots excepted). Never cross the line.
+- One running order: Bentley and P1 lead side by side, Porsche third, R8 fourth, until the finish.
+- Chain the shots: each new clip starts from the LAST frame of the previous clip (start image = extracted last frame), so the action carries over the cut.
+- Each clip shows a whole small action (enter, act, exit), not the middle of something.
+- One continuous sound bed (engines + ambience, later music) across all cuts, not a separate soundtrack per clip.
+
 **Views must read as Egypt in every shot** (user, 24 Oct): the Grand Egyptian Museum, the pyramids, the Sphinx, Giza's desert-sand light, palms and sandstone, visible in the frame or through the windows even in the in-car shots. Avoid shop signs and billboards (AI turns Arabic text into gibberish).
 
 Pipeline per shot: master image in **GPT Image 2.5 Sunburst max 1k** -> **Cinema Studio Video 3.0, 720p, audio ON, genre action**.
