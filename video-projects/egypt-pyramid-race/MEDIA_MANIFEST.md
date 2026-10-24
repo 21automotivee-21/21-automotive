@@ -12,7 +12,10 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 ## Street / location references (from the user)
 | File | Location | Used in shot |
 |---|---|---|
-| _waiting for the user_ | | |
+| `loc_gem_aerial.jpg` (Higgsfield media `8436c8d7`) | GEM from the air: facade, palm gardens, the flyover interchange in front, wide boulevards each side, 3 pyramids behind | 1, 3, 4, 5, 8 (ignore the construction cranes) |
+| `loc_gem_bridge_road.jpg` (Higgsfield media `895e8f9d`) | Curving road under the sandstone-clad bridge between GEM and the plateau, young palms, Khufu + Khafre behind | 6, 7 |
+| `loc_gem_golden_lines.jpg` (NOT uploaded: has white dashed lines drawn on it) | GEM golden-hour aerial showing the facade lines pointing at the pyramids | Look reference for shot 1 only (described in the prompt, not used as an image input) |
+| _still missing (optional)_ | Sphinx, plateau roads, Panorama point | 9-13. Without refs the model draws them from its own knowledge |
 
 ## Car and driver references (from the user)
 | File | Car / person | Notes |

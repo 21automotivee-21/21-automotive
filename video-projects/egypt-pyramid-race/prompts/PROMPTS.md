@@ -15,14 +15,14 @@ Automotive reference sheet on a plain light-grey studio background, three views 
 ```
 Car lines:
 - Sabeih (SBH): `A new fourth-generation Bentley Continental GT coupe in a satin matte burgundy-plum wrap, single oval LED headlamps with a light blade, black mesh grille and black lower intakes, gloss black twisted multi-spoke wheels with red brake calipers, dark exterior trim`
-- Omar (OMR): `A McLaren P1 hypercar in [colour TBC] with its active rear wing`
+- Omar (OMR): `A track-spec McLaren P1 GTR in deep green-teal colour-shift paint, roof air snorkel, huge fixed swan-neck rear wing, large front splitter, louvred front fenders, silver multi-spoke wheels`
 - Fahmy (WIZ): `A Porsche 992 911 GT3 RS in glossy deep magenta-burgundy, white GT3 RS script along the lower doors, white front bumper accents, huge swan-neck rear wing with white PORSCHE lettering, vented bonnet and louvred front fenders, dark burgundy-black multi-spoke wheels`
-- ROU (ROU): `A bright red second-generation Audi R8 V10 Spyder convertible with the roof down, black fabric roof stowed, black side blades, black honeycomb grille, silver 5-spoke wheels with red brake calipers, no rear wing`
+- ROU (ROU): `A bright red second-generation Audi R8 V10 Spyder convertible with the roof down, black fabric roof stowed, black side blades, black honeycomb grille, black 5-spoke wheels with red brake calipers, no rear wing`
 
 ## 2. Shot start frames (image model; inputs = car sheets + location reference photo)
-Shot 1, establishing:
+Shot 1, establishing (location image: GEM aerial):
 ```
-Aerial drone view at golden hour of four supercars lined up side by side on the wide stone plaza in front of the Grand Egyptian Museum in Giza, the museum's huge triangular translucent alabaster facade and the hanging obelisk of Ramesses II behind them, the three Giza pyramids on the horizon, long shadows, heat haze. From left to right: the Bentley from @Image 1, the McLaren P1 from @Image 2, the burgundy Porsche from @Image 3, the red Audi R8 Spyder from @Image 4.
+Aerial drone view at golden hour of four supercars lined up side by side on the wide pale-stone plaza in front of the Grand Egyptian Museum in Giza, the museum's huge sloped facade of grey-white triangular panels with diagonal ribs whose lines point toward the pyramids, rows of palm trees in green terraced gardens beside the plaza, the three Giza pyramids on the horizon, long shadows, heat haze. From left to right: the matte burgundy Bentley <<<Race-Bentley-SBH>>>, the green-teal McLaren P1 <<<Race-P1-OMR>>>, the glossy magenta Porsche <<<Race-Porsche-WIZ>>>, the red Audi R8 Spyder <<<Race-Audi-ROU>>>. No construction cranes, no other traffic.
 ```
 Shot 4, launch:
 ```
@@ -36,7 +36,15 @@ Shot 11, climax:
 ```
 Long-lens tracking shot from a chase car at blue hour: a customized Bentley Continental GT and a McLaren P1 door to door at high speed on a desert road, the three Giza pyramids lit up behind them against a deep blue sky, headlights on, motion-blurred road.
 ```
-(Remaining shots are written once the route and street references are locked.)
+Shot 5, Bentley vs P1 drag (TEST SHOT; location image: GEM aerial):
+```
+Long-lens tracking shot from a chase car, side-on, late golden hour: the matte burgundy-plum Bentley Continental GT <<<Race-Bentley-SBH>>> and the green-teal McLaren P1 GTR <<<Race-P1-OMR>>> door to door at high speed on the wide empty boulevard beside the Grand Egyptian Museum, the museum's ribbed triangular facade and palm gardens blurred behind them, the Giza pyramids on the horizon, heat haze, motion-blurred road, blank license plates.
+```
+Shot 7, overtake under the bridge (location image: bridge road):
+```
+Low roadside camera whip-panning as the glossy magenta Porsche 911 GT3 RS <<<Race-Porsche-WIZ>>> dives past the red Audi R8 Spyder <<<Race-Audi-ROU>>> on the curving road under the sandstone-clad bridge, young palm trees on the verge, Khufu and Khafre pyramids behind, golden hour, dust off the kerb.
+```
+(Element placeholders `<<<Name>>>` are swapped for the Element UUIDs at generation time; see README character/car tables.)
 
 ## 3. Image-to-video motion prompts (per shot)
 Template:

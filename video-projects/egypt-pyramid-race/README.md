@@ -19,7 +19,7 @@ What to borrow from it (also see `SHOTLIST.md`):
 | 1 | **Sabeih** | Bentley Continental GT (new 4th gen), **customized** | `SBH` | **LOCKED** as Element `Race-Bentley-SBH` (`da353314-38ef-4c6c-ade4-1e60ea1b8366`): satin/matte burgundy-plum wrap, gloss black twisted multi-spoke wheels, red calipers, black grille/intakes, single oval LED headlamps |
 | 2 | **Omar** + passenger **Karen** | McLaren P1, track spec (GTR / LM style) | `OMR` | **LOCKED** as Element `Race-P1-OMR` (`e3560804-cbcd-4139-8370-9a9548ca2546`): deep green-teal colour-shift paint, roof snorkel, huge fixed wing, silver wheels. NOT the purple road P1 |
 | 3 | **Fahmy** | Porsche 992 911 GT3 RS | `WIZ` | **LOCKED** as Element `Race-Porsche-WIZ` (`1d34bece-4f83-4493-9301-3007b7f63821`): GLOSSY deep magenta-burgundy, white GT3 RS side script, white front bumper accents, swan-neck wing with white PORSCHE/RS, dark multi-spoke wheels |
-| 4 | **ROU** (4th friend) | Audi R8 V10 Spyder (2nd gen), red | `ROU` | **LOCKED** as Element `Race-Audi-ROU` (`d42aeb08-ea5e-4dc1-aa5f-e3df1938b30a`): front 3/4 + rear 3/4. Bright red, roof down, red calipers, black side blade, no wing. Wheels: silver (front photo) vs black (rear photo), user to pick |
+| 4 | **ROU** (4th friend) | Audi R8 V10 Spyder (2nd gen), red | `ROU` | **LOCKED** as Element `Race-Audi-ROU` (`d42aeb08-ea5e-4dc1-aa5f-e3df1938b30a`): front 3/4 + rear 3/4. Bright red, roof down, red calipers, black side blade, no wing. Wheels: **black** (user, 24 Oct) |
 
 ## Character references (one locked reference per friend; check this table before EVERY generation)
 Checked in the Higgsfield account on 24 Oct 2026. Only use what is listed here. Never reuse another project's
@@ -46,7 +46,8 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 
 ## Status (24 Oct 2026)
 - All 5 people and all 4 cars are locked as Higgsfield Elements (free). **Nothing generated yet. No credits spent.**
-- Waiting on the user for: street references, R8 wheel colour, length/format, music choice.
+- Location refs received (GEM aerial, GEM-to-pyramids bridge road, GEM golden-hour aerial).
+- Waiting on the user for: OK on the test pass (see Production plan), plus optional refs for the Sphinx / plateau / Panorama point.
 
 ## Decided by the user (24 Oct 2026)
 - **Faces visible, NO helmets at all.** It's a street race through Egypt, not a track race: everyone in street clothes, faces from their character sheets.
@@ -61,7 +62,7 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 
 ## Open questions for the user
 0c. Colour clash handled: Bentley = MATTE burgundy-plum; Porsche = GLOSSY magenta-burgundy with white GT3 RS graphics and a big wing. Always state 'matte' vs 'glossy' in prompts.
-0. ~~ROU's Audi~~: R8 V10 Spyder. Rejected: the R8 GT coupe photo and the 1st-gen (2010) Spyder side photo. Open: silver or black wheels?
+0. ~~ROU's Audi~~: R8 V10 Spyder. Rejected: the R8 GT coupe photo and the 1st-gen (2010) Spyder side photo. Wheels: **black** (decided).
 0b. ~~Omar's P1~~: green-teal track car (photo 1). Purple road P1 NOT used.
 1. ~~Car 4 driver~~: answered, ROU is the 4th friend.
 2. ~~Sabeih's Bentley~~: answered with 4 photos (24 Oct), all the same car.
@@ -70,8 +71,15 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 5. Faces: the user wants each friend's correct character reference used (see table above). Still open: should faces appear (helmet off / in-cabin close-ups like the movie)? If yes we need real photos
    (same rule as the couple project: phone back camera, daylight, no filter, front + 3/4 views).
 6. ~~Who wins~~: **Sabeih wins** (Bentley beats Omar's P1 at the photo finish).
-7. Length and format: ~45 s 16:9 master plus a 9:16 cut for Reels/TikTok?
-8. Music: free licensed track (like the couple project) or an original generated score?
+7. ~~Length/format~~: **45 s, 16:9** (decided).
+8. ~~Sound~~: **like the F1 Daytona scene**: engine sounds, car sound design and a cinematic racing score. Do NOT rip audio from the YouTube clip (copyrighted); build our own: per-shot engine SFX + an original Zimmer-style pulse score (generated), mixed so engines lead and the score swells on launch/climax.
+
+## Production plan (decided 24 Oct)
+- **Not Genjutsu, not Katana as the engine.** Genjutsu needs a real driving/source video to transform (we have none of cars in Giza). Katana recreates a reference video shot-for-shot; the only reference is the copyrighted F1 Daytona clip (night, oval track, can't be used as source), and Katana runs end-to-end without per-step price approval.
+- Instead, per shot: **start frame** (image model + Elements: people, car, location photo) -> **image-to-video** clip -> edit, plates, sound in post.
+- Prices checked 24 Oct (balance 748.88 credits): start frame `nano_banana_pro` 2k 16:9 = **2 cr**; video 5 s: `kling3_0` = **10 cr**, `cinematic_studio_3_0` 720p = **25 cr** / 1080p = **65 cr**, `seedance_2_5` 1080p = **80 cr**.
+- Full film is ~16 clips. Kling 3.0 ~= 160 cr + retakes; Cinema Studio 720p ~= 400 cr + retakes; 1080p options exceed the balance.
+- **Next: test pass = 1 start frame (shot 5, Bentley vs P1) + animate it in Kling 3.0 and Cinema Studio 3.0 = ~37 credits**, compare, then pick the model for the rest. Waiting for the user's OK.
 
 ## Rules carried over from the couple project
 - Always quote the credit cost and wait for the user's OK before any paid generation.
