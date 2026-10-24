@@ -54,6 +54,7 @@ Each one then becomes a named Element (`Race-Omar`, `Race-Fahmy`, `Race-ROU`) an
 
 ## Open questions for the user
 0. ~~ROU's Audi~~: answered, **R8 V10 Spyder** exactly as photo 1. Photo 2 (R8 GT coupe) is NOT used. Still need a Spyder rear 3/4 + side.
+0b. Omar's P1: photo 1 = green-teal P1 GTR/LM-style track car (snorkel, fixed big wing, silver wheels); photo 2 = purple road P1 (active wing, dark wheels, orange calipers). Which one?
 1. ~~Car 4 driver~~: answered, ROU is the 4th friend.
 2. Sabeih's Bentley: what is customized (colour, wrap, wheels, body kit, exhaust)? A photo is best.
 3. Fahmy's car: a modern **992 GT3 RS** in burgundy with Singer-style touches, or a classic **Singer-reimagined 964-shape 911**? These look very different.
