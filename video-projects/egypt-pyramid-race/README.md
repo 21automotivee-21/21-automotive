@@ -17,9 +17,9 @@ What to borrow from it (also see `SHOTLIST.md`):
 | # | Driver | Car | Plate | Colour / look |
 |---|---|---|---|---|
 | 1 | **Sabeih** | Bentley Continental GT (new 4th gen), **customized** | `SBH` | **LOCKED** as Element `Race-Bentley-SBH` (`da353314-38ef-4c6c-ade4-1e60ea1b8366`): satin/matte burgundy-plum wrap, gloss black twisted multi-spoke wheels, red calipers, black grille/intakes, single oval LED headlamps |
-| 2 | **Omar** + passenger **Karen** | McLaren P1 | `OMR` | TBC colour (P1 classic: Volcano Orange / Papaya) |
+| 2 | **Omar** + passenger **Karen** | McLaren P1, track spec (GTR / LM style) | `OMR` | **LOCKED** as Element `Race-P1-OMR` (`e3560804-cbcd-4139-8370-9a9548ca2546`): deep green-teal colour-shift paint, roof snorkel, huge fixed wing, silver wheels. NOT the purple road P1 |
 | 3 | **Fahmy** | Porsche 992 911 GT3 RS | `WIZ` | **LOCKED** as Element `Race-Porsche-WIZ` (`1d34bece-4f83-4493-9301-3007b7f63821`): GLOSSY deep magenta-burgundy, white GT3 RS side script, white front bumper accents, swan-neck wing with white PORSCHE/RS, dark multi-spoke wheels |
-| 4 | **ROU** (4th friend) | Audi R8 V10 Spyder (2nd gen), red | `ROU` | Bright red, roof down, silver 5-spoke wheels, red calipers, black side blade, black honeycomb grille, no wing |
+| 4 | **ROU** (4th friend) | Audi R8 V10 Spyder (2nd gen), red | `ROU` | **LOCKED** as Element `Race-Audi-ROU` (`d42aeb08-ea5e-4dc1-aa5f-e3df1938b30a`): front 3/4 + rear 3/4. Bright red, roof down, red calipers, black side blade, no wing. Wheels: silver (front photo) vs black (rear photo), user to pick |
 
 ## Character references (one locked reference per friend; check this table before EVERY generation)
 Checked in the Higgsfield account on 24 Oct 2026. Only use what is listed here. Never reuse another project's
@@ -30,13 +30,13 @@ character (Love Rally "Selim"/"Rami", Zeina, Zara, Lames are NOT in this film) a
 | Sabeih | Higgsfield Element **`Sabih-Main`** (`bd818291-5d37-4a49-aadb-685155266c07`): long curly hair, full beard, black leather biker jacket, white tee, grey cargos | **LOCKED**: the user sent this exact sheet as Sabeih's reference (24 Oct) |
 | Omar | Higgsfield Element **`Race-Omar`** (`5a16c501-05d2-4054-92d7-665304169902`): face close-up + full body; short tight curls, short beard, black bomber, black jeans, white sneakers | **LOCKED** (user-supplied, 24 Oct) |
 | Karen (passenger in Omar's P1) | Higgsfield Element **`Race-Karen`** (`b9a08365-d269-4ab2-ae8c-b81ce3896dc4`): user's character sheet; long straight black hair, black cropped bomber, white tank, grey pleated mini skirt | **LOCKED** (user-supplied, 24 Oct) |
-| Fahmy | none | **Missing**: need photos or a sheet |
-| ROU | none | **Missing**: need photos or a sheet |
+| Fahmy | Higgsfield Element **`Race-Fahmy`** (`ef4c61da-757b-4483-b9da-b9e3aeddd9b3`): short dark hair, full beard, silver rectangular tinted glasses, cream knit zip cardigan, white tee, light jeans | **LOCKED** (user-supplied, 24 Oct) |
+| ROU | Higgsfield Element **`Race-ROU`** (`9c2bad4f-f3dc-4330-9cde-498351247cf3`): long straight dark hair, nose + septum rings, silver choker, black cropped leather jacket, black top, black wide trousers, chunky boots | **LOCKED** (user-supplied, 24 Oct). The 3 unlabeled face photos uploaded earlier on 24 Oct match ROU |
 
 Resolved: the unlabeled upload of a man with short curls (media `ee9bdf69-...`) is Omar.
 Karen's outfit has visible brand logos; AI tends to garble logos, so QC them or plain them out in prompts.
 Photos needed per friend: phone back camera, daylight, no filter or portrait mode, face front + left 3/4 + right 3/4 + full body.
-Each one then becomes a named Element (`Race-Fahmy`, `Race-ROU` still to make) and the user approves it before any shot is generated.
+All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Race-Porsche-WIZ`, `Race-Audi-ROU`.
 
 ## Locations (street references to come from the user)
 - **Grand Egyptian Museum**: triangular translucent-alabaster facade, the hanging obelisk of Ramesses II on the entrance plaza, the big front plaza and access roads.
@@ -45,8 +45,8 @@ Each one then becomes a named Element (`Race-Fahmy`, `Race-ROU` still to make) a
 - Light: golden-hour start, ending at blue hour with the pyramids lit (night racing lights like Daytona).
 
 ## Status (24 Oct 2026)
-- Project brief, shot list and prompts drafted. **Nothing generated yet. No credits spent.**
-- Waiting on the user for: street references, the answers to the open questions below, and car/driver photos.
+- All 5 people and all 4 cars are locked as Higgsfield Elements (free). **Nothing generated yet. No credits spent.**
+- Waiting on the user for: street references, R8 wheel colour, length/format, music choice.
 
 ## Decided by the user (24 Oct 2026)
 - **Faces visible, NO helmets at all.** It's a street race through Egypt, not a track race: everyone in street clothes, faces from their character sheets.
@@ -61,15 +61,15 @@ Each one then becomes a named Element (`Race-Fahmy`, `Race-ROU` still to make) a
 
 ## Open questions for the user
 0c. Colour clash handled: Bentley = MATTE burgundy-plum; Porsche = GLOSSY magenta-burgundy with white GT3 RS graphics and a big wing. Always state 'matte' vs 'glossy' in prompts.
-0. ~~ROU's Audi~~: answered, **R8 V10 Spyder** exactly as photo 1. Photo 2 (R8 GT coupe) is NOT used. Still need a Spyder rear 3/4 + side.
-0b. Omar's P1: photo 1 = green-teal P1 GTR/LM-style track car (snorkel, fixed big wing, silver wheels); photo 2 = purple road P1 (active wing, dark wheels, orange calipers). Which one?
+0. ~~ROU's Audi~~: R8 V10 Spyder. Rejected: the R8 GT coupe photo and the 1st-gen (2010) Spyder side photo. Open: silver or black wheels?
+0b. ~~Omar's P1~~: green-teal track car (photo 1). Purple road P1 NOT used.
 1. ~~Car 4 driver~~: answered, ROU is the 4th friend.
 2. ~~Sabeih's Bentley~~: answered with 4 photos (24 Oct), all the same car.
 3. ~~Fahmy's car~~: answered, modern 992 GT3 RS (photos 24 Oct).
 4. Omar's P1 colour.
 5. Faces: the user wants each friend's correct character reference used (see table above). Still open: should faces appear (helmet off / in-cabin close-ups like the movie)? If yes we need real photos
    (same rule as the couple project: phone back camera, daylight, no filter, front + 3/4 views).
-6. Who wins? (Decides the last shots.)
+6. ~~Who wins~~: **Sabeih wins** (Bentley beats Omar's P1 at the photo finish).
 7. Length and format: ~45 s 16:9 master plus a 9:16 cut for Reels/TikTok?
 8. Music: free licensed track (like the couple project) or an original generated score?
 

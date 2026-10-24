@@ -18,6 +18,6 @@ Main rivalry: **Sabeih (Bentley) vs Omar (P1)**, with Karen riding with Omar. Lo
 | 11a | 30.0-31.5 | Bentley cabin: Sabeih glances across at the P1 | Side window POV | Panorama point road | Sabeih sheet + Bentley. |
 | 11b | 31.5-33.0 | P1 cabin: Omar stares back, Karen grips the door, then laughs | Side window POV from the passenger side | Same | Omar + Karen sheets + P1. |
 | 11 | 33.0-36.0 | Climax: **Sabeih vs Omar door to door** as the sun sets behind the three pyramids | Long held tracking shot, slowly pulling ahead of the cars | Panorama point road | Blue hour; pyramids lit. |
-| 12 | 36.0-39.0 | Photo finish: the winning nose crosses the line | Ultra-slow-motion, side-on, ground level | Finish line (location TBC) | Music cuts to silence. |
+| 12 | 36.0-39.0 | Photo finish: **Sabeih's Bentley** noses ahead of Omar's P1 on the line | Ultra-slow-motion, side-on, ground level | Finish line (location TBC) | Music cuts to silence. |
 | 13 | 39.0-43.0 | Aftermath: cars parked in a fan shape, headlights on, pyramids lit behind | Slow drone pull-out | Panorama point | Engines ticking, wind. |
-| 14 | 43.0-45.0 | Plates close-up on the winner (`SBH` / `OMR` / `WIZ` / `ROU`), then cut to black, title card | Static macro | Same | Title, e.g. "GIZA GRAND PRIX". |
+| 14 | 43.0-45.0 | Plate close-up on the winner, `SBH`, then cut to black, title card | Static macro | Same | Title, e.g. "GIZA GRAND PRIX". |
