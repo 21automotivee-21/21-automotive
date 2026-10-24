@@ -46,6 +46,12 @@ Each one then becomes a named Element (`Race-Omar`, `Race-Fahmy`, `Race-ROU`) an
 - Project brief, shot list and prompts drafted. **Nothing generated yet. No credits spent.**
 - Waiting on the user for: street references, the answers to the open questions below, and car/driver photos.
 
+## Decided by the user (24 Oct 2026)
+- **Faces visible, NO helmets at all.** It's a street race through Egypt, not a track race: everyone in street clothes, faces from their character sheets.
+- Each friend's face comes ONLY from their approved character sheet (table above).
+- Car photo angles requested from the user: front 3/4 (main), side profile, rear 3/4, straight front, straight rear, wheel close-up,
+  plus any custom detail. Shot at eye/headlight height, from 3-5 m, daylight in open shade, the whole car in frame, no other cars touching it.
+
 ## Open questions for the user
 1. ~~Car 4 driver~~: answered, ROU is the 4th friend.
 2. Sabeih's Bentley: what is customized (colour, wrap, wheels, body kit, exhaust)? A photo is best.
