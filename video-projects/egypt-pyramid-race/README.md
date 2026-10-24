@@ -53,6 +53,7 @@ Each one then becomes a named Element (`Race-Omar`, `Race-Fahmy`, `Race-ROU`) an
   plus any custom detail. Shot at eye/headlight height, from 3-5 m, daylight in open shade, the whole car in frame, no other cars touching it.
 
 ## Open questions for the user
+0. ROU's Audi: photo 1 = R8 Spyder (roof down, silver wheels, no wing); photo 2 = R8 GT coupe (wing, black wheels). Which car, or which mix?
 1. ~~Car 4 driver~~: answered, ROU is the 4th friend.
 2. Sabeih's Bentley: what is customized (colour, wrap, wheels, body kit, exhaust)? A photo is best.
 3. Fahmy's car: a modern **992 GT3 RS** in burgundy with Singer-style touches, or a classic **Singer-reimagined 964-shape 911**? These look very different.
