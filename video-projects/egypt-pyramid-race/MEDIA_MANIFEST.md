@@ -31,8 +31,13 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 | `fahmy_sheet.webp`, `rou_sheet.webp`, `karen_sheet.webp`, `omar_face/body.webp` (chat upload 24 Oct) | People | **APPROVED** character references (Elements `Race-Fahmy`, `Race-ROU`, `Race-Karen`, `Race-Omar`). Private, never commit |
 
 ## Generated media
+(Approved look: Sunburst max 2k + `scripts/film_grade.py`. Graded copies live in `renders/`, git-ignored.)
+
 | File | What | Status |
 |---|---|---|
+| `renders/shot06_master_v2_graded.jpg` (job `0a48d3f6-6d23-45da-904c-0332f81502f4`, Sunburst max 2k, 9 cr) | Shot 6 tandem drift, no smoke | Realistic, no smoke, tyre marks, all 4 cars correct. Drift angle is mild (cars barely sideways); museum drawn as a glass-pyramid facade, not the exact GEM |
+| `renders/shot13_master_v1_graded.jpg` (job `6e2c3deb-cbfc-478e-b506-fd500c13b77f`, Sunburst max 2k, 9 cr) | Shot 13 Sabeih in the Bentley, blue hour | Sabeih matches his sheet very well; P1 alongside; lit pyramids. Bentley paint reads glossy on the door frame; window/mirror geometry slightly odd |
+| `renders/shot07_master_v2_graded.jpg` (= shot07_SB_2k + film grade) | Shot 7 Omar + Karen | APPROVED look (still has tyre smoke outside; regenerate without smoke before animating) |
 | `shot06_master_v1.png` (job `fe50240a-c60f-403f-b3bb-23a31f20a9e5`, Sunburst max 1k, 5 cr, 1344x752) | Shot 6 tandem drift, 4 cars, GEM roundabout | Strong. All 4 cars accurate (Bentley now has the correct single-oval lamps, P1 teal, Porsche graphics, R8 roof down). Museum and pyramids read as Egypt. Look is a bit glossy/CG compared with Nano Banana Pro |
 | `shot07_NBP_2k.png` (job `2e8ea630-52fe-408f-a9d0-8b5116dadd43`, Nano Banana Pro 2k, 2 cr, 2752x1536) | Shot 7 head-to-head A | Most realistic (looks like real onboard footage). Omar + Karen faces good. Weak: ordinary seatbelts and a generic cabin, not a P1 race cockpit |
 | `shot07_SB_2k.png` (job `c8fefbdf-5e45-4ac1-adeb-7749155e56e7`, Sunburst max 2k, 9 cr, 2688x1520) | Shot 7 head-to-head B | Far more realistic than Sunburst 1k thanks to the film-realism prompt. Correct P1 race cockpit with harnesses and rear wing, correct new Bentley lamps, museum closer to the real GEM, faces good. Slightly more 'graded' than A |
