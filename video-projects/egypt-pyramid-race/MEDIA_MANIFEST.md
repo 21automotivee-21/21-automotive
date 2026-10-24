@@ -22,6 +22,11 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 | `p1_1_front34.jpg` (chat upload 24 Oct) | Omar - McLaren P1 | Front 3/4. Track-spec **P1 GTR / P1 LM-style**: deep green-teal colour-shift paint, roof air snorkel, huge fixed swan-neck rear wing, big front splitter, louvred front fenders, silver multi-spoke wheels |
 | `p1_2_rear34.jpg` (chat upload 24 Oct) | Omar - McLaren P1 | Rear 3/4, but a different car: **road P1**, dark purple paint, active (retracting) rear wing, dark wheels, orange calipers. Conflicts with photo 1, see README |
 
+
+| File | What | Status |
+|---|---|---|
+| `bentley_wheel.jpg`, `bentley_front34.jpg`, `bentley_rear34.jpg`, `bentley_headlight.jpg` (chat upload 24 Oct) | Sabeih - Bentley | **APPROVED.** All one car; uploaded to Higgsfield as Element `Race-Bentley-SBH`. Ignore the "New Continental GT" dealer placards (plates stay blank) |
+
 ## Generated media
 | File | What | Status |
 |---|---|---|

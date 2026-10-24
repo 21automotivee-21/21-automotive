@@ -14,7 +14,7 @@ Format: 16:9, 2k. Same template, swap the car line.
 Automotive reference sheet on a plain light-grey studio background, three views of the SAME car in one image: front three-quarter view on the left, side profile in the middle, rear three-quarter view on the right. [CAR LINE]. Accurate real-world proportions, correct wheels and lights, soft studio lighting, sharp focus, photorealistic, blank white license plates, no text, no watermark, no people.
 ```
 Car lines:
-- Sabeih (SBH): `A customized Bentley Continental GT, [colour/wrap TBC], [wheels TBC], [body kit TBC]`
+- Sabeih (SBH): `A new fourth-generation Bentley Continental GT coupe in a satin matte burgundy-plum wrap, single oval LED headlamps with a light blade, black mesh grille and black lower intakes, gloss black twisted multi-spoke wheels with red brake calipers, dark exterior trim`
 - Omar (OMR): `A McLaren P1 hypercar in [colour TBC] with its active rear wing`
 - Fahmy (WIZ): `A Porsche 911 GT3 RS in deep glossy burgundy with Singer Vehicle Design styling details, [992 GT3 RS or classic 964-shape Singer: TBC]`
 - ROU (ROU): `A bright red second-generation Audi R8 V10 Spyder convertible with the roof down, black fabric roof stowed, black side blades, black honeycomb grille, silver 5-spoke wheels with red brake calipers, no rear wing`
