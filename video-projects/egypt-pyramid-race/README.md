@@ -87,6 +87,12 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 - Style brief: real Hollywood, "$1-billion" street-race scene: drifting around each other, drifting through the streets, hitting objects (cones, barriers, crates) and carrying on. See SHOTLIST v2.
 - Budget at 711.88 cr: 16 masters x 5 = 80 + 16 clips x 25 = 400 -> ~480, leaving ~230 for redos.
 
+## PROMPT RULES learned from user feedback (24 Oct)
+- People: candid, unposed, NOT looking at the camera; side / three-quarter views; real skin with imperfections. Posed lens-facing portraits read as AI.
+- Cars: avoid camera rigs that put the car's own door/mirror big in the foreground (distorted the Bentley 'like a Beetle'). Prefer inside-cabin or clean exterior angles.
+- No tyre smoke. Museum = the real facade from the location photo.
+- Sabeih's `Sabih-Main` sheet is itself AI-generated (from the couple project); real photos of Sabeih would improve face realism further.
+
 ## RULE: master image model (set by the user, 24 Oct)
 - Every scene's master/start image = **GPT Image 2.5, variant `sunburst`, quality `max`** (`gpt_image_2_5`). Not Nano Banana, not other image models.
 - Resolution: **1k (5 cr) by default, aiming for 1080p video**; go to 2k (9 cr) or 4k (15 cr) only when a shot needs it (e.g. close-ups, the hero frames). Quote before each.
