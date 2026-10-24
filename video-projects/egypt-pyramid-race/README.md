@@ -82,6 +82,12 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 - **Kling 4.0 is on Higgsfield** (`kling4_0`, image-to-video with start image + up to 7 reference images/element IDs): 5 s = **7.5 cr at 720p / 10 cr at 1080p**. Full film at 1080p ~= 160 cr + retakes.
 - **Next: test pass = 1 start frame (shot 5, Bentley vs P1, 2 cr) + animate it in Kling 4.0 1080p (10 cr) and Cinema Studio 3.0 720p (25 cr) = 37 credits**, compare, then pick the model for the rest. **Test DONE 24 Oct (37 cr spent, ~711.88 left)**; results in MEDIA_MANIFEST. Waiting for the user's pick.
 
+## RULE: master image model (set by the user, 24 Oct)
+- Every scene's master/start image = **GPT Image 2.5, variant `sunburst`, quality `max`** (`gpt_image_2_5`). Not Nano Banana, not other image models.
+- Resolution: **1k (5 cr) by default, aiming for 1080p video**; go to 2k (9 cr) or 4k (15 cr) only when a shot needs it (e.g. close-ups, the hero frames). Quote before each.
+- If a Sunburst generation fails or comes out wrong, **redo it with Sunburst** (same model), never switch models silently.
+- The shot 5 test frame (Nano Banana Pro) is test-only; shot 5 gets a new Sunburst master.
+
 ## Rules carried over from the couple project
 - Always quote the credit cost and wait for the user's OK before any paid generation.
 - Personal photos, renders and music stay OFF GitHub (public repo, see `.gitignore` and `MEDIA_MANIFEST.md`).
