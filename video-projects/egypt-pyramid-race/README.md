@@ -17,7 +17,7 @@ What to borrow from it (also see `SHOTLIST.md`):
 | # | Driver | Car | Plate | Colour / look |
 |---|---|---|---|---|
 | 1 | **Sabeih** | Bentley Continental GT, **customized** | `SBH` | TBC: colour, wheels, body kit, wrap |
-| 2 | **Omar** | McLaren P1 | `OMR` | TBC colour (P1 classic: Volcano Orange / Papaya) |
+| 2 | **Omar** + passenger **Karen** | McLaren P1 | `OMR` | TBC colour (P1 classic: Volcano Orange / Papaya) |
 | 3 | **Fahmy** | Porsche 911 GT3 RS, **Singer-design**, burgundy | `WIZ` | Burgundy, Singer-style details (see open question 3) |
 | 4 | **ROU** (4th friend) | Audi R8 V10 Spyder (2nd gen), red | `ROU` | Bright red, roof down, silver 5-spoke wheels, red calipers, black side blade, black honeycomb grille, no wing |
 
@@ -31,6 +31,7 @@ character (Love Rally "Selim"/"Rami", Zeina, Zara, Lames are NOT in this film) a
 | Omar | none | **Missing**: need photos |
 | Fahmy | none | **Missing**: need photos |
 | ROU | none | **Missing**: need photos |
+| Karen (passenger in Omar's P1) | user says she has a character sheet, but **no "Karen" was found in the Higgsfield account** (Elements or Soul characters, checked 24 Oct) | **Missing**: user to send the sheet or its Higgsfield name. Do NOT substitute "Lames" or the unlabeled woman's photos |
 
 Unlabeled upload seen in the account (24 Oct): a man with short curly hair and a beard (media `ee9bdf69-...`). The user must say who it is before it gets used.
 Photos needed per friend: phone back camera, daylight, no filter or portrait mode, face front + left 3/4 + right 3/4 + full body.
@@ -51,6 +52,11 @@ Each one then becomes a named Element (`Race-Omar`, `Race-Fahmy`, `Race-ROU`) an
 - Each friend's face comes ONLY from their approved character sheet (table above).
 - Car photo angles requested from the user: front 3/4 (main), side profile, rear 3/4, straight front, straight rear, wheel close-up,
   plus any custom detail. Shot at eye/headlight height, from 3-5 m, daylight in open shade, the whole car in frame, no other cars touching it.
+
+- **Karen** rides as Omar's passenger in the P1. No 5th car.
+- **Main battle = Sabeih (Bentley) vs Omar (P1), door to door.**
+- Reference budget: Genjutsu takes max 5 reference images per generation (people + cars count together). So every shot holds only who is in it:
+  wide/exterior battle shots = 2 cars only (faces too small to need sheets); in-cabin close-ups = 1 driver sheet (+ Karen in the P1) + that car.
 
 ## Open questions for the user
 0. ~~ROU's Audi~~: answered, **R8 V10 Spyder** exactly as photo 1. Photo 2 (R8 GT coupe) is NOT used. Still need a Spyder rear 3/4 + side.
