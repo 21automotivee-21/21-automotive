@@ -6,7 +6,7 @@ Main rivalry: **Sabeih (Bentley) vs Omar (P1)**, with Karen riding with Omar. Lo
 | # | Time | Shot | Camera | Location | Notes |
 |---|---|---|---|---|---|
 | 1 | 0.0-3.0 | Establishing aerial: the four cars lined up side by side, engines idling, long shadows | Slow drone push-in, very high to mid | GEM front plaza, the hanging obelisk behind them, pyramids on the horizon | Golden hour. Silence plus wind. |
-| 2 | 3.0-5.0 | Extreme close-ups, one per driver: eyes in the mirror, gloved hand on the wheel | Macro, shallow focus | In-cabin | 4 quick cuts (~0.5 s each). Only if faces/hands are approved (Q5). |
+| 2 | 3.0-5.0 | Extreme close-ups, one per driver: eyes in the mirror, bare hand tightening on the wheel (street clothes, no helmets) | Macro, shallow focus | In-cabin | 4 quick cuts (~0.5 s each), plus Karen beside Omar. One driver sheet per cut. |
 | 3 | 5.0-6.5 | Rev needles jump, exhaust flames / heat haze | Low static cam at the rear diffuser | GEM plaza | First beat drop builds here. |
 | 4 | 6.5-9.0 | LAUNCH: all four cars leave the line, tyre smoke | Ultra-low ground cam at the front, cars pass over or past the lens | GEM plaza | Beat drops on the launch. |
 | 5 | 9.0-12.0 | Side-by-side drag on the road toward the pyramids: Bentley (SBH) and P1 (OMR) pull clear of the others | Long-lens tracking from a chase car, side-on | Road from GEM to the plateau | Motion-blurred background. |
