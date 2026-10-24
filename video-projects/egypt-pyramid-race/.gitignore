@@ -1,0 +1,10 @@
+# keep personal media and licensed music out of this public repo
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.webp
+qc/
