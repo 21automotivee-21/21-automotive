@@ -99,6 +99,7 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 
 ## RULE: master image model (set by the user, 24 Oct)
 - Every scene's master/start image = **GPT Image 2.5, variant `sunburst`, quality `max`** (`gpt_image_2_5`). Not Nano Banana, not other image models.
+- **Never use Nano Banana for any image with people in it, not even a small edit** (user, 25 Oct): it does not get the friends' faces right. Any edit to a frame with people goes through Sunburst. Best face references are the approved in-car masters (shot 13 for Sabeih, shot 7 for Omar + Karen, shot 9 for Fahmy), not only the character sheets.
 - Resolution: **1k (5 cr) by default, aiming for 1080p video**; go to 2k (9 cr) or 4k (15 cr) only when a shot needs it (e.g. close-ups, the hero frames). Quote before each.
 - If a Sunburst generation fails or comes out wrong, **redo it with Sunburst** (same model), never switch models silently.
 - The shot 5 test frame (Nano Banana Pro) is test-only; shot 5 gets a new Sunburst master.
