@@ -5,6 +5,8 @@ Direction from the user (24 Oct): a real cinematic, $1-billion-Hollywood street 
 Structure still follows the F1 movie Daytona scene: **tension -> launch -> battle -> chaos -> climax -> finish**.
 Main rivalry: **Sabeih (Bentley, SBH) vs Omar (P1, OMR, with Karen)**. Sabeih wins.
 
+**Views must read as Egypt in every shot** (user, 24 Oct): the Grand Egyptian Museum, the pyramids, the Sphinx, Giza's desert-sand light, palms and sandstone, visible in the frame or through the windows even in the in-car shots. Avoid shop signs and billboards (AI turns Arabic text into gibberish).
+
 Pipeline per shot: master image in **GPT Image 2.5 Sunburst max 1k** -> **Cinema Studio Video 3.0, 720p, audio ON, genre action**.
 Cinema 3.0 clips are 4 s minimum; shorter beats are trimmed in the edit. Nobody gets hurt: every hit is an object, the streets are closed and empty.
 
