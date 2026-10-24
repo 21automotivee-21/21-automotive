@@ -53,8 +53,9 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 | `renders/shot16_morning_graded.jpg` (job `5bc8734c-26ed-4294-b425-3a3a78a3b153`) | Shot 16 v1 (Karen only) | Superseded: user wants all five friends |
 | `renders/shot16_v2_graded.jpg` (job `4ef843cb-4f91-4d19-8a1a-b3124d3cd353`, 9 cr) | **Shot 16 FINAL**: all five in front of their own cars (ROU-R8, Omar+Karen-P1, Sabeih-Bentley, Fahmy-Porsche) | Good likeness, 3 pyramids |
 | `renders/clips/shot05_clip_v1.mp4` (job `eb783d1c-dc0f-403d-a6c3-969cd72a3e50`, Cinema Studio 3.0 720p 5 s, audio on, 25 cr) | Shot 5 clip | Cars stay exact; native engine audio (-13 dB mean). Background pyramids drift a little during the move |
-| `renders/clips/shot07_clip_v1.mp4` (job `d5f8893e-7772-450e-b55f-601a74123272`, 25 cr) | Shot 7 clip | Faces stay consistent; Karen screams/laughs, Omar counter-steers; camera swing reveals museum + pyramids |
-| `renders/clips/shot08_clip_v1.mp4` (job `d8f0f71b-5b2a-44fa-bb10-62ac41d75abb`, 25 cr) | Shot 8 clip | Strong: barriers and cones explode, Porsche passes, R8 follows, a cone hits the lens |
+| `renders/clips/shot07_clip_v1.mp4` (job `d5f8893e-7772-450e-b55f-601a74123272`, 25 cr) | Shot 7 clip | REJECTED by user: Omar's face/head frozen, not realistic |
+| Seedance 2.5 test (job `ed308c3f-d9f1-4e7b-a63b-0814c8d8cb1e`, omni_reference 720p 5 s audio, 35 cr) | Shot 7 retry on a different model | rendering |
+| `renders/clips/shot08_clip_v1.mp4` (job `d8f0f71b-5b2a-44fa-bb10-62ac41d75abb`, 25 cr) | Shot 8 clip | REJECTED by user: the Porsche appears to hop over/through a solid wall of barriers, unrealistic. Fix: new master where the Porsche clips only the END of a short line of cones/barriers with its front corner (glancing hit, car stays planted), then re-animate |
 | `renders/clips/TEST_REEL_shots_05_07_08.mp4` | 15 s test reel, ffmpeg film grade (sat 0.8, cool/warm balance, grain) | Sent to the user for approval |
 | `renders/ALL_16_MASTERS.jpg` | Contact sheet of the 16 final masters in film order | |
 | `renders/shot06_master_v2_graded.jpg` (job `0a48d3f6-6d23-45da-904c-0332f81502f4`, Sunburst max 2k, 9 cr) | Shot 6 tandem drift, no smoke | Realistic, no smoke, tyre marks, all 4 cars correct. Drift angle is mild (cars barely sideways); museum drawn as a glass-pyramid facade, not the exact GEM |
