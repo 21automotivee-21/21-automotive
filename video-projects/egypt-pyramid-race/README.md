@@ -1,6 +1,6 @@
 # Egypt Pyramid Race (cinematic AI car video)
 
-Short cinematic film for the repo owner (Sabeih) and his friends: four supercars race through Giza,
+Short cinematic film for the repo owner (Sabeih) and his three friends, **4 friends, 4 cars**: four supercars race through Giza,
 past the **Grand Egyptian Museum (GEM)** and around the **Pyramids**. It is separate from the
 21 Automotive website code in this repo. Nothing here is imported by the Next.js app.
 
@@ -19,7 +19,22 @@ What to borrow from it (also see `SHOTLIST.md`):
 | 1 | **Sabeih** | Bentley Continental GT, **customized** | `SBH` | TBC: colour, wheels, body kit, wrap |
 | 2 | **Omar** | McLaren P1 | `OMR` | TBC colour (P1 classic: Volcano Orange / Papaya) |
 | 3 | **Fahmy** | Porsche 911 GT3 RS, **Singer-design**, burgundy | `WIZ` | Burgundy, Singer-style details (see open question 3) |
-| 4 | **TBC** | Audi R8 Spyder, red | `ROU` | Red, roof down? |
+| 4 | **ROU** (4th friend) | Audi R8 Spyder, red | `ROU` | Red, roof down? |
+
+## Character references (one locked reference per friend; check this table before EVERY generation)
+Checked in the Higgsfield account on 24 Oct 2026. Only use what is listed here. Never reuse another project's
+character (Love Rally "Selim"/"Rami", Zeina, Zara, Lames are NOT in this film) and never guess who an unlabeled upload is.
+
+| Friend | Reference to use | Status |
+|---|---|---|
+| Sabeih | Higgsfield Element **`Sabih-Main`** (`bd818291-5d37-4a49-aadb-685155266c07`), character sheet set 23 Oct 2026: long curly hair, short full beard, black leather biker jacket | Exists. Waiting for the user to confirm it's the one for this film |
+| Omar | none | **Missing**: need photos |
+| Fahmy | none | **Missing**: need photos |
+| ROU | none | **Missing**: need photos |
+
+Unlabeled upload seen in the account (24 Oct): a man with short curly hair and a beard (media `ee9bdf69-...`). The user must say who it is before it gets used.
+Photos needed per friend: phone back camera, daylight, no filter or portrait mode, face front + left 3/4 + right 3/4 + full body.
+Each one then becomes a named Element (`Race-Omar`, `Race-Fahmy`, `Race-ROU`) and the user approves it before any shot is generated.
 
 ## Locations (street references to come from the user)
 - **Grand Egyptian Museum**: triangular translucent-alabaster facade, the hanging obelisk of Ramesses II on the entrance plaza, the big front plaza and access roads.
@@ -32,11 +47,11 @@ What to borrow from it (also see `SHOTLIST.md`):
 - Waiting on the user for: street references, the answers to the open questions below, and car/driver photos.
 
 ## Open questions for the user
-1. Car 4 (red Audi R8 Spyder, `ROU`): who is the driver? The brief says "3 friends" but lists 4 cars.
+1. ~~Car 4 driver~~: answered, ROU is the 4th friend.
 2. Sabeih's Bentley: what is customized (colour, wrap, wheels, body kit, exhaust)? A photo is best.
 3. Fahmy's car: a modern **992 GT3 RS** in burgundy with Singer-style touches, or a classic **Singer-reimagined 964-shape 911**? These look very different.
 4. Omar's P1 colour.
-5. Should the drivers' **faces** appear (helmet off / in-cabin close-ups like the movie)? If yes we need real photos
+5. Faces: the user wants each friend's correct character reference used (see table above). Still open: should faces appear (helmet off / in-cabin close-ups like the movie)? If yes we need real photos
    (same rule as the couple project: phone back camera, daylight, no filter, front + 3/4 views).
 6. Who wins? (Decides the last shots.)
 7. Length and format: ~45 s 16:9 master plus a 9:16 cut for Reels/TikTok?
