@@ -33,4 +33,6 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 ## Generated media
 | File | What | Status |
 |---|---|---|
-| _none yet_ | | |
+| `shot05_start_v1.png` (Higgsfield job `403e2456-dee6-4db0-8497-70159dd4d887`, nano_banana_pro 2k 16:9, 2 cr) | Shot 5 start frame: Bentley vs P1 beside GEM | Good test frame. QC: Bentley headlamps look closer to the older twin-lamp GT than the single-oval new one; P1 reads darker green than teal; two construction cranes appeared on the right despite the prompt. Fix all three before final |
+| Kling 4.0 test clip (job `2a9645cd-322d-454c-a2e4-eb18fcf0235a`, 1080p 5 s, 10 cr) | Shot 5 animated | DONE (1928x1076, 24 fps, 5.04 s, has audio). Most dramatic: camera pushes in, tyre smoke, cars stay accurate. Background drifts: the pyramids jump position, a concrete wall appears, the museum shrinks. Note: Kling 4.0 image-to-video rejects `kling_element_ids` (start image only; the first attempt was refused before starting, no charge) |
+| Cinema Studio 3.0 test clip (job `c950514f-ad4f-405e-9715-3abc2d3f8832`, 720p 5 s, 25 cr) | Shot 5 animated, with car Elements in the prompt | DONE (1280x720, 24 fps, 5.04 s, silent). Calmer tracking move, less smoke; cars AND background (museum, pyramids) stay stable all 5 s. Only 720p |

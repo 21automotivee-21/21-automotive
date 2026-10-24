@@ -80,7 +80,7 @@ All five people are locked. Car elements: `Race-Bentley-SBH`, `Race-P1-OMR`, `Ra
 - Prices checked 24 Oct (balance 748.88 credits): start frame `nano_banana_pro` 2k 16:9 = **2 cr**; video 5 s: `kling3_0` = **10 cr**, `cinematic_studio_3_0` 720p = **25 cr** / 1080p = **65 cr**, `seedance_2_5` 1080p = **80 cr**.
 - Full film is ~16 clips. Kling 3.0 ~= 160 cr + retakes; Cinema Studio 720p ~= 400 cr + retakes; 1080p options exceed the balance.
 - **Kling 4.0 is on Higgsfield** (`kling4_0`, image-to-video with start image + up to 7 reference images/element IDs): 5 s = **7.5 cr at 720p / 10 cr at 1080p**. Full film at 1080p ~= 160 cr + retakes.
-- **Next: test pass = 1 start frame (shot 5, Bentley vs P1, 2 cr) + animate it in Kling 4.0 1080p (10 cr) and Cinema Studio 3.0 720p (25 cr) = 37 credits**, compare, then pick the model for the rest. Waiting for the user's OK.
+- **Next: test pass = 1 start frame (shot 5, Bentley vs P1, 2 cr) + animate it in Kling 4.0 1080p (10 cr) and Cinema Studio 3.0 720p (25 cr) = 37 credits**, compare, then pick the model for the rest. **Test DONE 24 Oct (37 cr spent, ~711.88 left)**; results in MEDIA_MANIFEST. Waiting for the user's pick.
 
 ## Rules carried over from the couple project
 - Always quote the credit cost and wait for the user's OK before any paid generation.
