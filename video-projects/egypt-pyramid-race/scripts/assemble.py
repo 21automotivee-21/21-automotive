@@ -49,7 +49,9 @@ def main():
 
     total = sum(float(r[3]) for r in rows)
     title = (f"drawtext=fontfile={FONT}:text='{TITLE}':fontcolor=white:fontsize=96:"
-             f"x=(w-text_w)/2:y=(h-text_h)/2:alpha='if(lt(t,{total-2.5}),0,min(1,(t-{total-2.5})/0.8))'")
+             # sits in the sky above the pyramids so it never covers the friends in shot 16
+             f"shadowcolor=black@0.6:shadowx=3:shadowy=3:"
+             f"x=(w-text_w)/2:y=h*0.06:alpha='if(lt(t,{total-2.5}),0,min(1,(t-{total-2.5})/0.8))'")
     if music:
         run(["ffmpeg", "-v", "error", "-y", "-i", "joined.mp4", "-ss", str(music_start), "-i", music,
              "-filter_complex",
