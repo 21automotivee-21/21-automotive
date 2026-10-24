@@ -11,6 +11,11 @@ Main rivalry: **Sabeih (Bentley, SBH) vs Omar (P1, OMR, with Karen)**. Sabeih wi
 
 **NO slow motion** (user, 25 Oct): everything plays at real speed. Realism, above all realistic motion, matters more than anything else.
 
+**Motion and scale rules** (user, 25 Oct, after the Seedance shots 11 and 14):
+- Cars must look FAST. No camera car matching their speed (that makes them look parked); use a static or slower camera so the cars blast past and leave the frame, with strong motion blur.
+- No scraping, no sparks, no wall or door contact. Clean, real driving only.
+- People inside at TRUE human scale (small in wide shots). Recognisable faces only in the in-car close-ups.
+
 **Views must read as Egypt in every shot** (user, 24 Oct): the Grand Egyptian Museum, the pyramids, the Sphinx, Giza's desert-sand light, palms and sandstone, visible in the frame or through the windows even in the in-car shots. Avoid shop signs and billboards (AI turns Arabic text into gibberish).
 
 Pipeline per shot: master image in **GPT Image 2.5 Sunburst max 1k** -> **Cinema Studio Video 3.0, 720p, audio ON, genre action**.
