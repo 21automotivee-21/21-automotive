@@ -9,3 +9,6 @@
 *.webp
 qc/
 renders/
+
+# organised delivery folder (media only, never committed)
+GIZA_GRAND_PRIX/

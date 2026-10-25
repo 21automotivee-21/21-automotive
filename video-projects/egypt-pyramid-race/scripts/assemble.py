@@ -10,7 +10,8 @@ cut and crossfades into the next shot, and a quiet continuous road/wind bed runs
 film, so the engines never drop out at an edit. An optional music track is mixed on top, and the
 title card fades in over the last shot.
 
-Usage: python assemble.py edl.txt out.mp4 [music.mp3 music_start_s]
+Usage: python assemble.py edl.txt out.mp4 [music.mp3 music_start_s] [--no-title]
+--no-title leaves the title off so export_versions.py can place it per format (16:9 / 9:16).
 """
 import subprocess
 import sys
@@ -38,9 +39,11 @@ def atempo(speed):
 
 
 def main():
-    edl, out = sys.argv[1], sys.argv[2]
-    music = sys.argv[3] if len(sys.argv) > 3 else None
-    music_start = float(sys.argv[4]) if len(sys.argv) > 4 else 0.0
+    no_title = "--no-title" in sys.argv
+    args = [a for a in sys.argv[1:] if a != "--no-title"]
+    edl, out = args[0], args[1]
+    music = args[2] if len(args) > 2 else None
+    music_start = float(args[3]) if len(args) > 3 else 0.0
 
     rows = [l.split() for l in open(edl) if l.strip() and not l.startswith("#")]
     vparts, aparts = [], []
@@ -91,6 +94,8 @@ def main():
              # sits in the sky above the pyramids so it never covers the friends in shot 16
              f"shadowcolor=black@0.6:shadowx=3:shadowy=3:"
              f"x=(w-text_w)/2:y=h*0.06:alpha='if(lt(t,{total-2.5}),0,min(1,(t-{total-2.5})/0.8))'")
+    if no_title:
+        title = "null"
     if music:
         run(["ffmpeg", "-v", "error", "-nostdin", "-y", "-i", "joined_video.mp4", "-i", "joined_audio.wav",
              "-ss", str(music_start), "-i", music,

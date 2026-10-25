@@ -92,3 +92,17 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 | Cinema Studio 3.0 test clip (job `c950514f-ad4f-405e-9715-3abc2d3f8832`, 720p 5 s, 25 cr) | Shot 5 animated, with car Elements in the prompt | DONE (1280x720, 24 fps, 5.04 s, silent). Calmer tracking move, less smoke; cars AND background (museum, pyramids) stay stable all 5 s. Only 720p |
 | `renders/edit/draft_v2.mp4` (+ `draft_v2_review.mp4` with shot numbers and status), built from `edl_draft_v2.txt` | First full 45 s draft with the best clip we have per shot (1920x1080, 24 fps, loudness -14 LUFS, no music yet). Shot 6 = sped-up Seedance; 11 and 14 = Seedance; the rest Kling / Cinema Studio | For review, shows what still needs redoing |
 | `renders/edit/draft_v3.mp4` (+ `draft_v3_review.mp4`), built from `edl_draft_v3.txt` | Continuity re-edit, 45.0 s: cuts on movement, slow clips sped up (5 x1.5, 12 x1.1, 14 x1.25, 15 x1.15), shot 11 dropped (wall scrape), sound crossfades 0.3 s across every cut plus a continuous low road/wind bed, no silent gaps | For review |
+
+## Organised delivery folder: `GIZA_GRAND_PRIX/` (house rules in `../README.md`, 25 Oct)
+| Folder | Contents |
+|---|---|
+| `01_APPROVED_VIDEOS/` | shots 1, 2, 3, 8, 10, 12, 13 (Kling) |
+| `02_NOT_APPROVED_VIDEOS/waiting_for_review/` | shot 5 (Cinema Studio), shot 6 Seedance (+ 1.67x fast), shot 7 Kling 4.0 |
+| `02_NOT_APPROVED_VIDEOS/rejected/` | 4, 6, 9, 11, 14, 15, 16 Kling; 11, 14, 14-close Seedance; 7 Seedance; 7 and 8 Cinema Studio |
+| `03_FULL_VIDEOS_AND_COMPARISONS/` | draft v3 full + labelled review; `draft_v3_all_versions/` (full 45 s and short 15 s, each 16:9, 9:16, 1:1); `older_drafts_and_tests/` (v1, v2, test reel, shot 7 comparisons) |
+| `04_FINAL/` | empty until the owner signs off a cut |
+| `05_IMAGES/approved/` | start frames of the approved clips (1, 2, 3, 8 v2, 10 v2, 12, 13 v4) + shot 7 v2 look |
+| `05_IMAGES/not_approved/` | all other masters, tests and contact sheets |
+Known issue: the 9:16 / 1:1 versions use a centre crop, so wide shots lose the cars at the edges
+(shot 16 loses ROU and Fahmy). Final exports need a per-shot crop position.
+
