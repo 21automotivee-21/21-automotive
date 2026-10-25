@@ -25,6 +25,11 @@ Set by the owner (25 Oct 2026). Follow these on every project: race films, ads, 
   (as `_Couple_Video` does). In a cloud session, send the owner the files so nothing is lost when the
   container is recycled.
 
+- The same split exists as a **Higgsfield project named after the video** (folders 01 APPROVED VIDEOS,
+  02 NOT APPROVED VIDEOS, 03 WAITING FOR REVIEW, 04 APPROVED IMAGES, 05 NOT APPROVED IMAGES,
+  06 FULL VIDEOS). Every generation goes into it, and edited cuts are uploaded there too, so the owner
+  finds everything in their own account, not only in a temporary cloud session.
+
 ## 2. Every full cut ships in every format
 For each draft and each final, export:
 | Version | File suffix | Use |

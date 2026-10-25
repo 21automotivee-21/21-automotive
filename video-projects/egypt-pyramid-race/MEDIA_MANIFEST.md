@@ -106,3 +106,15 @@ In a cloud session: ask the user to upload what you need, or find it in their Hi
 Known issue: the 9:16 / 1:1 versions use a centre crop, so wide shots lose the cars at the edges
 (shot 16 loses ROU and Fahmy). Final exports need a per-shot crop position.
 
+## Higgsfield project: "GIZA GRAND PRIX - Egypt Race" (25 Oct)
+Project `d1c2a9cf-42ab-402c-9925-3ad18468d245` in the owner's Higgsfield account. Every generation of the project is filed here:
+| Folder | ID | Contents |
+|---|---|---|
+| 01 APPROVED VIDEOS | `7d713095-955b-4c81-9bc3-229e81f41aa2` | 7 clips: shots 1, 2, 3, 8, 10, 12, 13 |
+| 02 NOT APPROVED VIDEOS | `cb5116bb-db69-461b-98b4-a7ba4f622354` | 15 clips (all rejected Kling / Seedance / Cinema Studio takes) |
+| 03 WAITING FOR REVIEW | `0610e3e5-493b-4918-b860-46257fdbd2f4` | 3 clips: shot 5 (Cinema Studio), 6 (Seedance), 7 (Kling 4.0) |
+| 04 APPROVED IMAGES | `3b5628d5-b110-4a3a-8ccb-c6a49c1f920b` | 8 start frames (1, 2, 3, 7, 8, 10, 12, 13) |
+| 05 NOT APPROVED IMAGES | `77e2f48b-6b9c-4403-88d6-cdf1754424a3` | 40 other images and tests |
+| 06 FULL VIDEOS - DRAFT v3 ALL VERSIONS | `a644e021-461f-43a6-8f2a-6e5c101c3fc0` | uploaded edits: full 45 s + short 15 s in 16:9 / 9:16 / 1:1, and the labelled review copy |
+When a file changes status, move its placement with `move_project_asset` so this account and the local folder stay in sync.
+
